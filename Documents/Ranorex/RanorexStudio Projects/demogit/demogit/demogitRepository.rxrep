@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="demogitRepository"
+id="ccc73a74-d3e6-4a5f-84ef-c8e69b2299d2">
+  <codegen
+  classname="demogitRepository"
+  namespace="demogit"/>
+  <rootfolder
+  name="Root"
+  id="db0492bc-ea08-4455-8742-dd56615c627e"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+      <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

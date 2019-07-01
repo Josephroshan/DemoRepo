@@ -1,0 +1,50 @@
+﻿<repository
+id="f2b957b1-8fc7-4699-8a00-1f9fba13ec98"
+name="Obj_GenaralClass">
+	<codegen
+	classname="Obj_GenaralClass"
+	namespace="FrameworkSolution.ObjectRepository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="04d0517a-67ca-470a-9060-c1f50ca9bd87"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="1721f5c8-a3f5-44af-a094-f6cef4d6d892"
+		isrooted="True"
+		name="Driver"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="6c994e9f-49f4-47f8-97ac-025714b97bba"
+			name="PARTCloseButton"
+			refimgid="ef7208fe-920e-47d4-bc72-43b7f1f86076"
+			searchtimeout="30000ms">
+				/form[@classname='Window' and @visible='True' and @automationid='Driver']/button[@automationid='PART_CloseButton' and @visible='True']
+			</item>
+			<basepath>
+				/form[@classname='Window' and @visible='True' and @automationid='Driver']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEWSURBVDhPY2AwWvCfIkyRZpDlMAOYTRb+F3Za
+TjRmMV0IcTnMgIKek/9PXn79//TV1/+PXXz5/+Hzz/9xgT9///0XdV6BMIDXZun/5Tvu/V+2/d7/
+NXse/F8GZG87+uT/3lPPsOKZa28iwg1bGExece3/tiOP/3cuuEw4gNENADntz59/YNdXTz1HugFJ
+jUfgXr98+93/g2dfoODpq2+gGorugo0HHoEN+Pfv3//ff/7+//0bgX8B2Q0zzuM2gMtq8f+v33+D
+DehZfIWw85GjEeSSgKK9cOfbp2wn3YD5m27DDTh/4+3/M9feoODivlOYhiKnxNfvv+NMPCAJj5xd
+uA1gMl7wXwSYlPFhkBqMdEO1zESuQQBcIlQEoshHoQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

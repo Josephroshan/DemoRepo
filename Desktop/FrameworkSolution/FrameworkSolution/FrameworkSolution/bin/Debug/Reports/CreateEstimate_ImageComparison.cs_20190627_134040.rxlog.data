@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="e44f08b8817cfd8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="THI1901453"
+		rxversion="9.1.0.0"
+		host="THSLT10102"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="6/27/2019 1:40:43 PM"
+		timestampiso="2019-06-27T08:10:43"
+		endtime="6/27/2019 1:42:17 PM"
+		timeoutfactor="1"
+		module="CreateEstimate_ImageComparison">
+		<detail>
+			CreateEstimate_ImageComparison
+		</detail>
+		<errormessage>
+			Failed to find item 'Obj_ImageComparison.Driver.BarButtonItemLinkNewButtonItem'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="01:34.281"
+			timeWallClock="13:42:17"
+			time="00:00.000"
+			level="Error"
+			category="Module"
+			errimg="images_CreateEs_9790a495\CreateEs_9790a495_26e7e510_trace.jpg"
+			errthumb="images_CreateEs_9790a495\CreateEs_9790a495_26e7e510_trace_thumb.jpg">
+			<message>
+				Failed to find item 'Obj_ImageComparison.Driver.BarButtonItemLinkNewButtonItem'.<br/>No element found for path '/form[@name='DESTINI Estimator' and @classname='Window']/container[@automationid='m_RibbonControl']//button[@text='New']' at step 'form[@name='DESTINI Estimator' and @classname='Window']' after 152 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at FrameworkSolution.ObjectRepository.Obj_ImageComparisonFolders.DriverAppFolder.get_BarButtonItemLinkNewButtonItem() in c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\ObjectRepository\Obj_ImageComparison.cs:line 142&#13;&#10;   at FrameworkSolution.Functions.ApplicationFunction.ImageComparison.Img_Comp() in c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\Functions\ApplicationFunction\ImageComparison.cs:line 45&#13;&#10;   at FrameworkSolution.TestScripts.CreateEstimate_ImageComparison.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\TestScripts\CreateEstimate_ImageComparison.cs:line 60&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\TestScripts\CreateEstimate_ImageComparison.cs"
+				codeline="60"
+				type="repoitem"
+				path="/form[@name='DESTINI Estimator' and @classname='Window']/container[@automationid='m_RibbonControl']//button[@text='New']"
+				itempath="container[@automationid='m_RibbonControl']//button[@text='New']"
+				fullname="Obj_ImageComparison.Driver.BarButtonItemLinkNewButtonItem"
+				id="21a5d9285bc14ccc91a387c96ac76b72"
+				timeout="60000"
+				failedStep="form[@name='DESTINI Estimator' and @classname='Window']"
+				bestPathPrefix=""
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

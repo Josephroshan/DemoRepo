@@ -1,0 +1,177 @@
+﻿<repository
+id="7b71b142-7c7e-46c8-9f49-864b49bdeb68"
+name="CreateEstimate">
+	<codegen
+	classname="CreateEstimate"
+	namespace="FrameworkSolution.DemoObj__Repo">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="0f350910-8f31-4a03-a7e5-b37acfb57d7e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement"
+		capname="form"
+		id="3e38b402-5b8a-42b1-a14b-416cb305af6c"
+		isrooted="True"
+		name="Driver"
+		refpath="/form[@automationid='Driver']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="2c8e8547-dd83-4e68-9a38-04b551b32f07"
+			name="ButtonNew"
+			refimgid="dc1726c9-0700-46fe-85b6-f055b8d0b4f9"
+			searchtimeout="30000ms">
+				/form[@automationid='Driver']/?/?/element[@automationid='m_RibbonControl']/container[@automationid='PART_AutoHideControl']/container[@automationid='PART_DefaultRibbon']/container[@automationid='PART_MainLayout']/container[@automationid='PART_SelectedPage']/container[@automationid='PART_SelectedPageControlContainer']/list/container[@automationid='root']//container[@automationid='PART_ScrollViewer']/?/?/container[@automationid='PART_ItemsPresenter']/?/?/list/container[@caption='']/container[@caption='']/list/?/?/container/list[1]/?/?/container[@automationid='PART_Border']/?/?/container[@automationid='PART_ItemsPresenter']//button[@text='New' and @visible='True']
+			</item>
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="767c6a51-1ddd-4009-b200-b98e9206dbf4"
+			name="PARTCloseButton"
+			refimgid="6557172f-c026-4572-842b-fc2225d608a0"
+			refpath="/form[@automationid='Driver']/container[@automationid='Root_Grid']/element[@automationid='PART_WindowAdornerDecorator']/container[@automationid='PART_RootContentPresenter']/container[@caption='']/container[@caption='']/container[@caption='']/container[@automationid='PART_Buttons']/container[@automationid='PART_ControlBoxContainer']/container[@caption='stackPanel']/container[@automationid='stackPanel']/container[@automationid='PART_WindowButtons']/button[@automationid='PART_CloseButton']"
+			searchtimeout="30000ms">
+				/form[@automationid='Driver']/container[@automationid='Root_Grid']//container[@automationid='PART_Buttons']/container[@automationid='PART_ControlBoxContainer']/?/?/container[@automationid='stackPanel']/container[@automationid='PART_WindowButtons']/button[@automationid='PART_CloseButton']
+			</item>
+			<folder
+			addcaps="container,wpfelement"
+			capname="container"
+			id="956856ea-b257-4f50-9192-25ee0a6efcd3"
+			isrooted="True"
+			name="DockLayoutContainer"
+			refpath="/form[@automationid='Driver']/container[@caption='']/element[@automationid='m_LoadingDecorator']/container[@automationid='DockLayoutContainer']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="picture,wpfelement"
+				capname="picture"
+				id="99710d29-0d07-4ae7-8d06-8cd3370e378c"
+				name="MViewer"
+				refimgid="76a4ff07-97de-43eb-bda2-6b2389481e0b"
+				refpath="/form[@automationid='Driver']/container[@caption='']/element[@automationid='m_LoadingDecorator']/container[@automationid='DockLayoutContainer']/element[@automationid='m_DockLayoutManager']/element[@automationid='m_LayoutGroup']/element[@automationid='dockItem1']/container[@automationid='_26fbb47054604724a1df89c001f16aad']/container[@caption='']/container[@automationid='m_ModelViewerView']/container[@caption='']/element[@automationid='m_ModelViewerBarManager']/element[@automationid='m_dockManager']/element[2]/container[@automationid='m_loadViewerPanel']/container[@caption='']/container[@caption='']/container[@caption='']/container[@automationid='m_ViewContainer']/container[@automationid='m_ucViewer']/element[@automationid='m_dockManager']/element[@automationid='m_ViewerGroup']/container[@automationid='m_ViewerPanel']/container[@caption='ViewerContainer']/container[@automationid='ViewerContainer']/container[@automationid='m_2DCanvas']/picture[@automationid='m_Viewer']"
+				searchtimeout="30000ms">
+					/form[@automationid='Driver']/?/?/element[@automationid='m_LoadingDecorator']/container[@automationid='DockLayoutContainer']/?/?/element[@automationid='m_LayoutGroup']/?/?/container[@automationid='_26fbb47054604724a1df89c001f16aad']//element[@automationid='m_dockManager']/?/?/container[@automationid='m_loadViewerPanel']//container[@automationid='m_ViewContainer']/container[@automationid='m_ucViewer']/?/?/element[@automationid='m_ViewerGroup']/container[@automationid='m_ViewerPanel']/?/?/container[@automationid='ViewerContainer']/container[@automationid='m_2DCanvas']/picture[@automationid='m_Viewer']
+				</item>
+				<item
+				addcaps="list,wpfelement"
+				capname="list"
+				id="102c8364-77b8-4ec3-9059-cf0d3145dbe5"
+				name="PARTItemsControl"
+				refimgid="b720e0ae-7732-4525-9ad4-373431e878d0"
+				refpath="/form[@automationid='Driver']/container[@caption='']/element[@automationid='m_LoadingDecorator']/container[@automationid='DockLayoutContainer']/element[@automationid='m_DockLayoutManager']/element[@automationid='m_LayoutGroup']/element[@automationid='dockItem1']/element/container/element/container[@automationid='PART_Content']/list[@automationid='PART_ItemsControl']"
+				searchtimeout="30000ms">
+					/form[@automationid='Driver']/?/?/element[@automationid='m_LoadingDecorator']/container[@automationid='DockLayoutContainer']/?/?/element[@automationid='m_LayoutGroup']/element[@automationid='dockItem1']//container[@automationid='PART_Content']/list[@automationid='PART_ItemsControl']
+				</item>
+				<item
+				addcaps="indicator,wpfelement"
+				capname="indicator"
+				id="c63c5c36-119a-4642-91f3-cda8a4d582be"
+				name="PARTLoadingPanel"
+				refimgid="5d544348-da55-4b14-ac91-de8e092cdc7b"
+				searchtimeout="30000ms">
+					/form[@automationid='Driver']/?/?/element[@automationid='m_LoadingDecorator']/container[@automationid='DockLayoutContainer']/?/?/element[@automationid='m_LayoutGroup']/element[@automationid='dockItem1']/container[@automationid='_26fbb47054604724a1df89c001f16aad']/?/?/container[@automationid='m_ModelViewerView']//element[@automationid='m_dockManager']/?/?/container[@automationid='m_loadViewerPanel']//container[@automationid='m_ViewContainer']/container[@automationid='m_ucViewer']/element[@automationid='m_dockManager']/element[@automationid='m_ViewerGroup']/container[@automationid='m_TakeoffPalette']/?/?/container[@automationid='m_TakeoffPaletteView']//container[@automationid='m_PaletteTreeControl']/element[@automationid='m_dockManager']/?/?/container[@automationid='m_listPanel']/?/?/container[@automationid='m_TreeControlCanvas']//indicator[@visible='True']
+				</item>
+				<basepath>
+					/form[@automationid='Driver']/?/?/element[@automationid='m_LoadingDecorator']/container[@automationid='DockLayoutContainer']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@automationid='Driver']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEoSURBVDhPY2AwWvCfIoxVkBQMYzCbLPwv7LSc
+aMxiuhDVgIKek/9PXn79//TV1/+PXXz5/+Hzz/9xgT9///0XdV6BMIDXZun/5Tvu/V+2/d7/NXse
+/F8GZG87+uT/3lPPsOKZa29CNMMMQMeTV1z7v+3I4/+dCy5jyGFgdAGQ0/78+Qd2avXUcyhyWDG6
+QFLjEbBmELh8+93/g2dfoODpq2+gqMcwYOOBR2DN//79+//7z9//v38j8C8gbphxHkU9igFcVov/
+f/3+G2xAz+IrqApxYWROQNFesGYQsE/ZjqoQF0bmzN90G6r9///zN97+P3PtDQou7juFqhmEYQxQ
+Snz9/jtUO3bgkbMLtwFMxgv+iwCTKD4MUoOiGYQxBEjFWAWJxgv+AwBcIlQEPAkEWAAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement"
+		capname="form"
+		id="f2ea2c9f-e7ce-4e8b-913b-b9e01caf6887"
+		isrooted="True"
+		name="CreateNewEstimate"
+		refpath="/form[@title='Create New Estimate']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="fbe91e85-f33a-40b1-bb40-485f4ff3771d"
+			name="EName"
+			refimgid="d6bd3d29-1381-4a58-a115-71e934b87147"
+			refpath="/form[@title='Create New Estimate']/container[@caption='']/container[2]/container[@automationid='NewEstimateGroupbox']/container[2]/text[@automationid='EstimateNameTextEdit']/container[@automationid='PART_Root']/container[2]/element[@automationid='PART_Content']/text[@automationid='PART_Editor']/element/container[@automationid='PART_ContentHost']/text[@caption='']"
+			searchtimeout="30000ms">
+				/form[@title='Create New Estimate']//container[@automationid='NewEstimateGroupbox']/?/?/text[@automationid='EstimateNameTextEdit']/container[@automationid='PART_Root']/?/?/element[@automationid='PART_Content']//container[@automationid='PART_ContentHost']/text[@caption='']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="0fde5583-fab6-4c29-9f25-8d55a57e2f05"
+			name="Client"
+			refimgid="32d3d192-2b0d-47dd-b878-4d9fb88071db"
+			refpath="/form[@title='Create New Estimate']/container[@caption='']/container[2]/container[@automationid='NewEstimateGroupbox']/container[2]/container[@caption='Estimate Information']/container[@caption='']/text[@automationid='_clientName']/container[@automationid='PART_Root']/container[2]/element[@automationid='PART_Content']/text[@automationid='PART_Editor']/element/container[@automationid='PART_ContentHost']/text[@caption='']"
+			searchtimeout="30000ms">
+				/form[@title='Create New Estimate']//container[@automationid='NewEstimateGroupbox']//text[@automationid='_clientName']/container[@automationid='PART_Root']/?/?/element[@automationid='PART_Content']/text[@automationid='PART_Editor']/?/?/container[@automationid='PART_ContentHost']/text[@caption='']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="8e2acbc7-f2ab-43e9-8eaf-1e4e9c62830a"
+			name="NewEstimate"
+			refimgid="0ac3c40a-c8a6-4d76-8659-30209c01dc77"
+			refpath="/form[@title='Create New Estimate']/container[@caption='']/container[1]/button[@automationid='CreateNewButton']/element[@automationid='border']/container[@automationid='contentPresenter']/text[@caption='New Estimate']"
+			searchtimeout="30000ms">
+				/form[@title='Create New Estimate']//button[@automationid='CreateNewButton']/?/?/container[@automationid='contentPresenter']/text[@caption='New Estimate']
+			</item>
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="b61d19de-8b16-468e-a835-70e676d9b74a"
+			name="Exit"
+			refimgid="77ac4be3-c984-41c0-93e5-171146f09f7a"
+			refpath="/form[@title='Create New Estimate']/container[@automationid='Root_Grid']/element[@automationid='PART_WindowAdornerDecorator']/container[@automationid='PART_RootContentPresenter']/container[@caption='']/container[@caption='']/container[@caption='']/container[@automationid='PART_RibbonLayout']/container[@automationid='PART_Header']/container[@caption='']/container[2]/container[2]/button[4]"
+			searchtimeout="30000ms">
+				/form[@title='Create New Estimate']/container[@automationid='Root_Grid']/element[@automationid='PART_WindowAdornerDecorator']/container[@automationid='PART_RootContentPresenter']//container[@automationid='PART_RibbonLayout']/container[@automationid='PART_Header']/container[@caption='']/container[2]/container[2]/button[4]
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="6e031f43-c4f2-4a72-9567-4d068be2ca28"
+			name="Cancel"
+			refimgid="07d32e44-d614-48f1-9ea0-5669e07fa726"
+			refpath="/form[@title='Create New Estimate']/container[@caption='']/container[1]/button[@automationid='CancelButton']/element[@automationid='border']/container[@automationid='contentPresenter']/text[@caption='Cancel']"
+			searchtimeout="30000ms">
+				/form[@title='Create New Estimate']//button[@automationid='CancelButton']/?/?/container[@automationid='contentPresenter']/text[@caption='Cancel']
+			</item>
+			<basepath>
+				/form[@title='Create New Estimate']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEoSURBVDhPY2AwWvCfIoxVkBQMYzCbLPwv7LSc
+aMxiuhDVgIKek/9PXn79//TV1/+PXXz5/+Hzz/9xgT9///0XdV6BMIDXZun/5Tvu/V+2/d7/NXse
+/F8GZG87+uT/3lPPsOKZa29CNMMMQMeTV1z7v+3I4/+dCy5jyGFgdAGQ0/78+Qd2avXUcyhyWDG6
+QFLjEbBmELh8+93/g2dfoODpq2+gqMcwYOOBR2DN//79+//7z9//v38j8C8gbphxHkU9igFcVov/
+f/3+G2xAz+IrqApxYWROQNFesGYQsE/ZjqoQF0bmzN90G6r9///zN97+P3PtDQou7juFqhmEYQxQ
+Snz9/jtUO3bgkbMLtwFMxgv+iwCTKD4MUoOiGYQxBEjFWAWJxgv+AwBcIlQEPAkEWAAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

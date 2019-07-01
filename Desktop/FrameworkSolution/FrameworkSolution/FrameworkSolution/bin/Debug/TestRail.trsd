@@ -1,0 +1,118 @@
+{
+  "RanorexSuites": [
+    {
+      "Id": "d01babf8-10a8-4530-9913-b501293f4bc5/7abf7127-1b1c-476b-8b44-43d9f2946dff",
+      "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/d01babf8-10a8-4530-9913-b501293f4bc5",
+      "Name": "FrameworkSolution"
+    }
+  ],
+  "CaseFields": [],
+  "ResultFields": [],
+  "TestRailProject": {
+    "Id": "P2",
+    "Pid": null,
+    "Name": "FrameworkSolution",
+    "BaseUri": "https://testran.testrail.io/",
+    "ProjectSuiteMode": 3,
+    "ProjectCustomizations": {
+      "TemplateId": 1,
+      "CaseTypeId": 3
+    }
+  },
+  "Projects": [
+    {
+      "Rx": {
+        "Id": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/d01babf8-10a8-4530-9913-b501293f4bc5",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/40bcda6e-258a-4b63-93fe-a9bf41a591bd",
+        "Name": "FrameworkSolution"
+      },
+      "Tr": null
+    }
+  ],
+  "TestSuites": [
+    {
+      "Rx": {
+        "Id": "d01babf8-10a8-4530-9913-b501293f4bc5/7abf7127-1b1c-476b-8b44-43d9f2946dff",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/d01babf8-10a8-4530-9913-b501293f4bc5",
+        "Name": "FrameworkSolution"
+      },
+      "Tr": {
+        "Id": "S3",
+        "Pid": "P2",
+        "Name": "FrameworkSolution"
+      }
+    }
+  ],
+  "Sections": [
+    {
+      "Rx": null,
+      "Tr": {
+        "Id": "G3",
+        "Pid": "S3",
+        "Name": "FrameworkSolution"
+      }
+    }
+  ],
+  "Cases": [
+    {
+      "Rx": {
+        "Id": "7abf7127-1b1c-476b-8b44-43d9f2946dff/5ac216ec-e291-49ec-be7f-53e3f902eead",
+        "Pid": "d01babf8-10a8-4530-9913-b501293f4bc5/7abf7127-1b1c-476b-8b44-43d9f2946dff",
+        "Name": "TestCase"
+      },
+      "Tr": {
+        "Id": "C3",
+        "Pid": "G3",
+        "Name": "TestCase"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "7abf7127-1b1c-476b-8b44-43d9f2946dff/0c7ac8a9-9646-4309-9c88-351550436f46",
+        "Pid": "d01babf8-10a8-4530-9913-b501293f4bc5/7abf7127-1b1c-476b-8b44-43d9f2946dff",
+        "Name": "TestCase1_CreateEstimate"
+      },
+      "Tr": {
+        "Id": "C4",
+        "Pid": "G3",
+        "Name": "TestCase1_CreateEstimate"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "7abf7127-1b1c-476b-8b44-43d9f2946dff/11d3b268-76f6-48ac-814c-43af02c26ab5",
+        "Pid": "d01babf8-10a8-4530-9913-b501293f4bc5/7abf7127-1b1c-476b-8b44-43d9f2946dff",
+        "Name": "TestCase2_AddAssembly_EstimateView"
+      },
+      "Tr": {
+        "Id": "C5",
+        "Pid": "G3",
+        "Name": "TestCase2_AddAssembly_EstimateView"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "7abf7127-1b1c-476b-8b44-43d9f2946dff/09fe3c5c-d9c8-43fe-a0bb-fc36bdb867f6",
+        "Pid": "d01babf8-10a8-4530-9913-b501293f4bc5/7abf7127-1b1c-476b-8b44-43d9f2946dff",
+        "Name": "TestCase3_AddLineItem_EstimateView"
+      },
+      "Tr": {
+        "Id": "C6",
+        "Pid": "G3",
+        "Name": "TestCase3_AddLineItem_EstimateView"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "7abf7127-1b1c-476b-8b44-43d9f2946dff/344b28eb-141a-4087-9842-0a2a32dccff9",
+        "Pid": "d01babf8-10a8-4530-9913-b501293f4bc5/7abf7127-1b1c-476b-8b44-43d9f2946dff",
+        "Name": "TestCase4_Image_Comparison"
+      },
+      "Tr": {
+        "Id": "C7",
+        "Pid": "G3",
+        "Name": "TestCase4_Image_Comparison"
+      }
+    }
+  ]
+}

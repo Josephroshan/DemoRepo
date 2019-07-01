@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1d468f7eefd6f80"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="THI1901453"
+		rxversion="9.1.0.0"
+		host="THSLT10102"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="6/27/2019 5:45:30 PM"
+		timestampiso="2019-06-27T12:15:30"
+		endtime="6/27/2019 5:46:12 PM"
+		timeoutfactor="1"
+		module="CreateEstimate_ImageComparison">
+		<detail>
+			CreateEstimate_ImageComparison
+		</detail>
+		<errormessage>
+			No element found for path '/form[@automationid='Driver']/?/?/element[@automationid='m_LoadingDecorator']/container[@automationid='DockLayoutContainer']/?/?/element[@automationid='m_LayoutGroup']/element[@automationid='dockItem1']/container[@automationid='_26fbb47054604724a1df89c001f16aad']/?/?/container[@automationid='m_ModelViewerView']//element[@automationid='m_dockManager']/?/?/container[@automationid='m_loadViewerPanel']//container[@automationid='m_ViewContainer']/container[@automationid='m_ucViewer']/element[@automationid='m_dockManager']/element[@automationid='m_ViewerGroup']/container[@automationid='m_TakeoffPalette']/?/?/container[@automationid='m_TakeoffPaletteView']//container[@automationid='m_PaletteTreeControl']/element[@automationid='m_dockManager']/?/?/container[@automationid='m_listPanel']/?/?/container[@automationid='m_TreeControlCanvas']//indicator[@automationid='PART_LoadingPanel']' at step 'element[@automationid='dockItem1']' after 8 attempts within 10s.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:42.288"
+			timeWallClock="17:46:12"
+			time="00:00.000"
+			level="Error"
+			category="Module"
+			errimg="images_CreateEs_8077eb33\CreateEs_8077eb33_2cae6be5_trace.jpg"
+			errthumb="images_CreateEs_8077eb33\CreateEs_8077eb33_2cae6be5_trace_thumb.jpg">
+			<message>
+				No element found for path '/form[@automationid='Driver']/?/?/element[@automationid='m_LoadingDecorator']/container[@automationid='DockLayoutContainer']/?/?/element[@automationid='m_LayoutGroup']/element[@automationid='dockItem1']/container[@automationid='_26fbb47054604724a1df89c001f16aad']/?/?/container[@automationid='m_ModelViewerView']//element[@automationid='m_dockManager']/?/?/container[@automationid='m_loadViewerPanel']//container[@automationid='m_ViewContainer']/container[@automationid='m_ucViewer']/element[@automationid='m_dockManager']/element[@automationid='m_ViewerGroup']/container[@automationid='m_TakeoffPalette']/?/?/container[@automationid='m_TakeoffPaletteView']//container[@automationid='m_PaletteTreeControl']/element[@automationid='m_dockManager']/?/?/container[@automationid='m_listPanel']/?/?/container[@automationid='m_TreeControlCanvas']//indicator[@automationid='PART_LoadingPanel']' at step 'element[@automationid='dockItem1']' after 8 attempts within 10s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Element.FindSingle(RxPath path, Duration timeout)
+   at Ranorex.Core.Element.FromPath(String path)
+   at Ranorex.Core.Element.op_Implicit(String path)
+   at FrameworkSolution.Functions.ApplicationFunction.ImageComparison.Img_Comp() in c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\Functions\ApplicationFunction\ImageComparison.cs:line 52
+   at FrameworkSolution.TestScripts.CreateEstimate_ImageComparison.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\TestScripts\CreateEstimate_ImageComparison.cs:line 62
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\Functions\ApplicationFunction\ImageComparison.cs"
+				codeline="52"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="190ca9ebc6d3f9a8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="THI1901453"
+		rxversion="9.1.0.0"
+		host="THSLT10102"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="6/27/2019 5:12:34 PM"
+		timestampiso="2019-06-27T11:42:34"
+		endtime="6/27/2019 5:13:13 PM"
+		timeoutfactor="1"
+		module="CreateEstimate_ImageComparison">
+		<detail>
+			CreateEstimate_ImageComparison
+		</detail>
+		<errormessage>
+			Failed to load bitmap from file '/form[@automationid='Driver']/?/?/element[@automationid='m_RibbonControl']/container[@automationid='PART_AutoHideControl']/container[@automationid='PART_DefaultRibbon']/container[@automationid='PART_MainLayout']/container[@automationid='PART_SelectedPage']/container[@automationid='PART_SelectedPageControlContainer']/list/container[@automationid='root']//container[@automationid='PART_ScrollViewer']/?/?/container[@automationid='PART_ItemsPresenter']/?/?/list/container[@caption='']/container[@caption='']/list/?/?/container/list[1]/?/?/container[@automationid='PART_Border']/?/?/container[@automationid='PART_ItemsPresenter']//button[@text='New' and @visible='True']'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:38.875"
+			timeWallClock="17:13:13"
+			time="00:00.000"
+			level="Error"
+			category="Module"
+			errimg="images_CreateEs_dc18d68\CreateEs_dc18d68_165efcad_trace.jpg"
+			errthumb="images_CreateEs_dc18d68\CreateEs_dc18d68_165efcad_trace_thumb.jpg">
+			<message>
+				Failed to load bitmap from file '/form[@automationid='Driver']/?/?/element[@automationid='m_RibbonControl']/container[@automationid='PART_AutoHideControl']/container[@automationid='PART_DefaultRibbon']/container[@automationid='PART_MainLayout']/container[@automationid='PART_SelectedPage']/container[@automationid='PART_SelectedPageControlContainer']/list/container[@automationid='root']//container[@automationid='PART_ScrollViewer']/?/?/container[@automationid='PART_ItemsPresenter']/?/?/list/container[@caption='']/container[@caption='']/list/?/?/container/list[1]/?/?/container[@automationid='PART_Border']/?/?/container[@automationid='PART_ItemsPresenter']//button[@text='New' and @visible='True']'.<br/>The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Imaging.Load(String filename)
+   at FrameworkSolution.Functions.ApplicationFunction.ImageComparison.Img_Comp() in c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\Functions\ApplicationFunction\ImageComparison.cs:line 53
+   at FrameworkSolution.TestScripts.CreateEstimate_ImageComparison.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\TestScripts\CreateEstimate_ImageComparison.cs:line 62
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\Functions\ApplicationFunction\ImageComparison.cs"
+				codeline="53"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b0d7ef9a-1c06-485e-9037-4757b2252d58"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="demogit">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="ccc73a74-d3e6-4a5f-84ef-c8e69b2299d2"
+	name="demogitRepository"
+	relativepath="demogitRepository.rxrep">
+		<codegen
+		classname="demogitRepository"
+		namespace="demogit">
+		</codegen>
+		<rootfolder
+		id="db0492bc-ea08-4455-8742-dd56615c627e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

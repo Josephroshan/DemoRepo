@@ -1,0 +1,56 @@
+C:\Users\THI1903474\Documents\Ranorex\RanorexStudio Projects\FrameworkSolution\FrameworkSolution\obj\x86\Debug\FrameworkSolution.csprojResolveAssemblyReference.cache
+C:\Users\THI1903474\Documents\Ranorex\RanorexStudio Projects\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.rxtmg
+C:\Users\THI1903474\Documents\Ranorex\RanorexStudio Projects\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.rxtst
+C:\Users\THI1903474\Documents\Ranorex\RanorexStudio Projects\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.exe.config
+C:\Users\THI1903474\Documents\Ranorex\RanorexStudio Projects\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.xml
+C:\Users\THI1903474\Documents\Ranorex\RanorexStudio Projects\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.exe
+C:\Users\THI1903474\Documents\Ranorex\RanorexStudio Projects\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.pdb
+C:\Users\THI1903474\Documents\Ranorex\RanorexStudio Projects\FrameworkSolution\FrameworkSolution\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\THI1903474\Documents\Ranorex\RanorexStudio Projects\FrameworkSolution\FrameworkSolution\obj\x86\Debug\FrameworkSolution.exe
+C:\Users\THI1903474\Documents\Ranorex\RanorexStudio Projects\FrameworkSolution\FrameworkSolution\obj\x86\Debug\FrameworkSolution.pdb
+C:\Users\THI1903474\Documents\Ranorex\RanorexStudio Projects\FrameworkSolution\FrameworkSolution\bin\Debug\Ranorex Automation Helpers.dll
+C:\Users\THI1903474\Documents\Ranorex\RanorexStudio Projects\FrameworkSolution\FrameworkSolution\bin\Debug\Ranorex.ReportToPDF.exe
+C:\Users\THI1903474\Documents\Ranorex\RanorexStudio Projects\FrameworkSolution\FrameworkSolution\bin\Debug\Ranorex Automation Helpers.pdb
+C:\Users\THI1903474\Documents\Ranorex\RanorexStudio Projects\FrameworkSolution\FrameworkSolution\bin\Debug\Ranorex Automation Helpers.xml
+C:\BECK_FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.rxtmg
+C:\BECK_FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.rxtst
+C:\BECK_FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.exe.config
+C:\BECK_FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.xml
+C:\BECK_FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.exe
+C:\BECK_FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.pdb
+C:\BECK_FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\Ranorex.Core.Resolver.dll
+C:\BECK_FrameworkSolution\FrameworkSolution\FrameworkSolution\obj\x86\Debug\FrameworkSolution.csprojResolveAssemblyReference.cache
+C:\BECK_FrameworkSolution\FrameworkSolution\FrameworkSolution\obj\x86\Debug\FrameworkSolution.exe
+C:\BECK_FrameworkSolution\FrameworkSolution\FrameworkSolution\obj\x86\Debug\FrameworkSolution.pdb
+C:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.rxtmg
+C:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.rxtst
+C:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.exe.config
+C:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.xml
+C:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.exe
+C:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.pdb
+C:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\obj\x86\Debug\FrameworkSolution.csprojResolveAssemblyReference.cache
+C:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\obj\x86\Debug\FrameworkSolution.exe
+C:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\obj\x86\Debug\FrameworkSolution.pdb
+C:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.rxsqc
+C:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\WaitManager.dll
+C:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\WebDriver.dll
+C:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\WebDriver.Support.dll
+C:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\WebDriver.xml
+C:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\WebDriver.Support.xml
+C:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.rxsqc
+C:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.rxtmg
+C:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.rxtst
+C:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.exe.config
+C:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.xml
+C:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.exe
+C:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\FrameworkSolution.pdb
+C:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\WaitManager.dll
+C:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\WebDriver.dll
+C:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\WebDriver.Support.dll
+C:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\WebDriver.xml
+C:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\bin\Debug\WebDriver.Support.xml
+C:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\obj\x86\Debug\FrameworkSolution.csprojResolveAssemblyReference.cache
+C:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\obj\x86\Debug\FrameworkSolution.exe
+C:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\obj\x86\Debug\FrameworkSolution.pdb

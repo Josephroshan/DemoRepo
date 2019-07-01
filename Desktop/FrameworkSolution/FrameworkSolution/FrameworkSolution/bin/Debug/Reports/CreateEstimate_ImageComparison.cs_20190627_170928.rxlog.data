@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="10cc31078cde6c58"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="THI1901453"
+		rxversion="9.1.0.0"
+		host="THSLT10102"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="6/27/2019 5:09:31 PM"
+		timestampiso="2019-06-27T11:39:31"
+		endtime="6/27/2019 5:10:13 PM"
+		timeoutfactor="1"
+		module="CreateEstimate_ImageComparison">
+		<detail>
+			CreateEstimate_ImageComparison
+		</detail>
+		<errormessage>
+			No element found for path '/form[@automationid='Driver']/?/?/element[@automationid='m_RibbonControl']/container[@automationid='PART_AutoHideControl']/container[@automationid='PART_DefaultRibbon']/container[@automationid='PART_MainLayout']/container[@automationid='PART_SelectedPage']/container[@automationid='PART_SelectedPageControlContainer']/list/container[@automationid='root']//container[@automationid='PART_ScrollViewer']/?/?/container[@automationid='PART_ItemsPresenter']/?/?/list/container[@caption='']/container[@caption='']/list/?/?/container/list[1]/?/?/container[@automationid='PART_Border']/?/?/container[@automationid='PART_ItemsPresenter']//button[@text='New']' at step '' after 1 attempts within 10s.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:41.965"
+			timeWallClock="17:10:13"
+			time="00:00.000"
+			level="Error"
+			category="Module"
+			errimg="images_CreateEs_e12273ec\CreateEs_e12273ec_fc9e9938_trace.jpg"
+			errthumb="images_CreateEs_e12273ec\CreateEs_e12273ec_fc9e9938_trace_thumb.jpg">
+			<message>
+				No element found for path '/form[@automationid='Driver']/?/?/element[@automationid='m_RibbonControl']/container[@automationid='PART_AutoHideControl']/container[@automationid='PART_DefaultRibbon']/container[@automationid='PART_MainLayout']/container[@automationid='PART_SelectedPage']/container[@automationid='PART_SelectedPageControlContainer']/list/container[@automationid='root']//container[@automationid='PART_ScrollViewer']/?/?/container[@automationid='PART_ItemsPresenter']/?/?/list/container[@caption='']/container[@caption='']/list/?/?/container/list[1]/?/?/container[@automationid='PART_Border']/?/?/container[@automationid='PART_ItemsPresenter']//button[@text='New']' at step '' after 1 attempts within 10s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Element.FindSingle(RxPath path, Duration timeout)
+   at Ranorex.Core.Element.FromPath(String path)
+   at Ranorex.Core.Element.op_Implicit(String path)
+   at FrameworkSolution.Functions.ApplicationFunction.ImageComparison.Img_Comp() in c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\Functions\ApplicationFunction\ImageComparison.cs:line 52
+   at FrameworkSolution.TestScripts.CreateEstimate_ImageComparison.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\TestScripts\CreateEstimate_ImageComparison.cs:line 62
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\Functions\ApplicationFunction\ImageComparison.cs"
+				codeline="52"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
