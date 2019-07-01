@@ -1,0 +1,20 @@
+﻿<repository
+id="abe59459-a0dd-42e4-9181-e46cc48096dd"
+name="AddLine">
+	<codegen
+	classname="AddLine"
+	namespace="FrameworkSolution.DemoObj__Repo">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="303a8ca2-00ff-495c-92c6-31304d6bab2f"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

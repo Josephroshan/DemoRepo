@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.6m"
+		durationms="94342"
+		type="root"
+		rid="19790c07bb237a23"
+		totalerrorcount="3"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="THI1901453"
+		rxversion="9.1.0.0"
+		host="THSLT10102"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="6/27/2019 3:16:42 PM"
+		timestampiso="2019-06-27T09:46:42"
+		endtime="6/27/2019 3:18:16 PM"
+		timeoutfactor="1"
+		module="CreateEstimate_ImageComparison">
+		<detail>
+			CreateEstimate_ImageComparison
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:34.056"
+			timeWallClock="15:17:16"
+			time="00:00.000"
+			level="Failure"
+			category="User">
+			<message>
+				Image Comparison is FAILED!!!
+			</message>
+			<metainfo
+				codefile="c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\TestScripts\CreateEstimate_ImageComparison.cs"
+				codeline="60"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:34.083"
+			timeWallClock="15:17:16"
+			time="00:00.000"
+			level="Error"
+			category="Expected"
+			errimg="images_CreateEs_985f5f8a\CreateEs_9ec93110_rxlog.jpg"
+			errthumb="images_CreateEs_985f5f8a\CreateEs_9ec93110_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\TestScripts\CreateEstimate_ImageComparison.cs"
+				codeline="60"
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:34.104"
+			timeWallClock="15:17:16"
+			time="00:00.000"
+			level="Error"
+			category="Actual"
+			errimg="images_CreateEs_985f5f8a\CreateEs_4170a5ab_rxlog.jpg"
+			errthumb="images_CreateEs_985f5f8a\CreateEs_4170a5ab_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\TestScripts\CreateEstimate_ImageComparison.cs"
+				codeline="60"
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="01:34.343"
+			timeWallClock="15:18:16"
+			time="00:00.000"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

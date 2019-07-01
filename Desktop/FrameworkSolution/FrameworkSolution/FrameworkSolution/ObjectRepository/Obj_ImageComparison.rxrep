@@ -1,0 +1,152 @@
+﻿<repository
+id="9f908249-68dc-4318-b65b-e599fe0becb5"
+name="Obj_ImageComparison">
+	<codegen
+	classname="Obj_ImageComparison"
+	namespace="FrameworkSolution.ObjectRepository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="b0409bbb-90da-4cff-896d-536bf570cb8a"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="55827566-43cf-41cf-9c6b-99bb4fb38f22"
+		isrooted="True"
+		name="CreateNewEstimate"
+		refimgid="1b945255-18e7-4552-b869-9356023895ee"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,uiautomation"
+			capname="container"
+			id="32c4fc5d-37f4-411f-80ae-f975a2bb5fd4"
+			name="PARTContentHost"
+			refimgid="f931ba83-c425-49d8-97c1-a73f7b4f5acb"
+			searchtimeout="30000ms">
+				/form[@visible='True' and @enabled='True']//text[@automationid='EstimateNameTextEdit']/text[@automationid='PART_Editor']/container[@automationid='PART_ContentHost' and @visible='True']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="fdd8ff26-15b3-437b-84c0-892c1863a3d2"
+			name="NewEstimate"
+			refimgid="a0f72507-a3f6-4a5a-a23b-46fd1adca335"
+			searchtimeout="30000ms">
+				/form[@visible='True' and @enabled='True']/?/?/text[@name='New Estimate' and @text='New Estimate']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="c7afc095-ce80-4e5e-89a4-3ffe2954ad6d"
+			name="PARTCloseButton"
+			refimgid="59d6ec8b-c938-4da8-a572-1cc34fcf53d2"
+			searchtimeout="30000ms">
+				/form[@visible='True' and @enabled='True']/button[@automationid='PART_CloseButton' and @visible='True']
+			</item>
+			<basepath>
+				/form[@visible='True' and @enabled='True']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEWSURBVDhPY2AwWvCfIkyRZpDlMAOYTRb+F3Za
+TjRmMV0IcTnMgIKek/9PXn79//TV1/+PXXz5/+Hzz/9xgT9///0XdV6BMIDXZun/5Tvu/V+2/d7/
+NXse/F8GZG87+uT/3lPPsOKZa28iwg1bGExece3/tiOP/3cuuEw4gNENADntz59/YNdXTz1HugFJ
+jUfgXr98+93/g2dfoODpq2+gGorugo0HHoEN+Pfv3//ff/7+//0bgX8B2Q0zzuM2gMtq8f+v33+D
+DehZfIWw85GjEeSSgKK9cOfbp2wn3YD5m27DDTh/4+3/M9feoODivlOYhiKnxNfvv+NMPCAJj5xd
+uA1gMl7wXwSYlPFhkBqMdEO1zESuQQBcIlQEoshHoQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement"
+		capname="form"
+		id="57a1dca7-5f7a-4fa7-a36d-7a45684a510c"
+		isrooted="True"
+		name="Driver"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="9f59c51e-9570-41f1-aedd-e23a6c1f29d0"
+			name="ButtonNew"
+			refimgid="63633477-8a3b-4c33-9b01-54fdfdf7ab56"
+			searchtimeout="30000ms">
+				/form[@automationid='Driver' and @processid='5256' and @visibility='Visible' and @type='MainWindow' and @wpfnative='True']/?/?/element[@automationid='m_RibbonControl']/container[@automationid='PART_AutoHideControl']/container[@automationid='PART_DefaultRibbon']/container[@automationid='PART_MainLayout']/container[@automationid='PART_SelectedPage']/container[@automationid='PART_SelectedPageControlContainer']/list/container[@automationid='root']//container[@automationid='PART_ScrollViewer']/?/?/container[@automationid='PART_ItemsPresenter']/?/?/list/container[@caption='']/container[@caption='']/list/?/?/container/list[1]/?/?/container[@automationid='PART_Border']/?/?/container[@automationid='PART_ItemsPresenter']//button[@text='New']
+			</item>
+			<item
+			addcaps="unknown,wpfelement"
+			capname="unknown"
+			id="34902f4a-5713-44b8-9174-a8fde24fcd4e"
+			name="HomeScreen"
+			refimgid="dba382e9-70e4-4b9a-859e-7690342eb05f"
+			refpath="/form[@automationid='Driver']/container[@automationid='Root_Grid']/element[@automationid='PART_WindowAdornerDecorator']/element"
+			searchtimeout="30000ms">
+				/form[@automationid='Driver' and @processid='5256' and @visibility='Visible' and @type='MainWindow' and @wpfnative='True']/container[@automationid='Root_Grid']/element/element
+			</item>
+			<basepath>
+				/form[@automationid='Driver' and @processid='5256' and @visibility='Visible' and @type='MainWindow' and @wpfnative='True']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEoSURBVDhPY2AwWvCfIoxVkBQMYzCbLPwv7LSc
+aMxiuhDVgIKek/9PXn79//TV1/+PXXz5/+Hzz/9xgT9///0XdV6BMIDXZun/5Tvu/V+2/d7/NXse
+/F8GZG87+uT/3lPPsOKZa29CNMMMQMeTV1z7v+3I4/+dCy5jyGFgdAGQ0/78+Qd2avXUcyhyWDG6
+QFLjEbBmELh8+93/g2dfoODpq2+gqMcwYOOBR2DN//79+//7z9//v38j8C8gbphxHkU9igFcVov/
+f/3+G2xAz+IrqApxYWROQNFesGYQsE/ZjqoQF0bmzN90G6r9///zN97+P3PtDQou7juFqhmEYQxQ
+Snz9/jtUO3bgkbMLtwFMxgv+iwCTKD4MUoOiGYQxBEjFWAWJxgv+AwBcIlQEPAkEWAAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement"
+		capname="form"
+		id="7c38d138-eaa1-4a99-bed4-4c4611e31c95"
+		isrooted="True"
+		name="Driver1"
+		refpath="/form[@automationid='Driver']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="a30313ad-419d-4105-bf09-95ae5f211316"
+			name="PARTCloseButton"
+			refimgid="5b609edc-2959-43f0-9b73-2f1aa8232696"
+			refpath="/form[@automationid='Driver']/container[@automationid='Root_Grid']/element[@automationid='PART_WindowAdornerDecorator']/container[@automationid='PART_RootContentPresenter']/container[@caption='']/container[@caption='']/container[@caption='']/container[@automationid='PART_Buttons']/container[@automationid='PART_ControlBoxContainer']/container[@caption='stackPanel']/container[@automationid='stackPanel']/container[@automationid='PART_WindowButtons']/button[@automationid='PART_CloseButton']"
+			searchtimeout="30000ms">
+				/form[@automationid='Driver']/container[@automationid='Root_Grid']//container[@automationid='PART_Buttons']/container[@automationid='PART_ControlBoxContainer']/?/?/container[@automationid='stackPanel']/container[@automationid='PART_WindowButtons']/button[@automationid='PART_CloseButton']
+			</item>
+			<basepath>
+				/form[@automationid='Driver']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEoSURBVDhPY2AwWvCfIoxVkBQMYzCbLPwv7LSc
+aMxiuhDVgIKek/9PXn79//TV1/+PXXz5/+Hzz/9xgT9///0XdV6BMIDXZun/5Tvu/V+2/d7/NXse
+/F8GZG87+uT/3lPPsOKZa29CNMMMQMeTV1z7v+3I4/+dCy5jyGFgdAGQ0/78+Qd2avXUcyhyWDG6
+QFLjEbBmELh8+93/g2dfoODpq2+gqMcwYOOBR2DN//79+//7z9//v38j8C8gbphxHkU9igFcVov/
+f/3+G2xAz+IrqApxYWROQNFesGYQsE/ZjqoQF0bmzN90G6r9///zN97+P3PtDQou7juFqhmEYQxQ
+Snz9/jtUO3bgkbMLtwFMxgv+iwCTKD4MUoOiGYQxBEjFWAWJxgv+AwBcIlQEPAkEWAAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<item
+		addcaps="button,wpfelement"
+		capname="button"
+		id="86e7b59f-9e83-4465-a924-f3a5f7420b69"
+		name="Dots"
+		refimgid="44843542-739c-4ad5-bf39-149fd2fb0109"
+		searchtimeout="30000ms">
+			/form[@automationid='Driver']/?/?/element[@automationid='m_LoadingDecorator']/container[@automationid='DockLayoutContainer']/?/?/element[@automationid='m_LayoutGroup']/container[@automationid='StartViewLayoutPanel']/?/?/container[@automationid='StartViewUserControl']/?/?/element[@automationid='m_StartPageBackstageView']/element[@automationid='_recentBackstageTabItem']/?/?/container[@automationid='_mruView']/?/?/table[@automationid='_mruGrid']/table/container[@automationid='scr3']//container[@automationid='PART_ScrollContentPresenter']//container[@automationid='gridCards']/container[@automationid='cardsPanel']/?/?/container[@automationid='card']/container[@automationid='gridCardPanel']/container[@automationid='cardHeader']/container/container[1]/container[2]/container[@caption='']/button
+		</item>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

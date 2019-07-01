@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="264ca5aa2d342282"
+		totalerrorcount="3"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="THI1901453"
+		rxversion="9.1.0.0"
+		host="THSLT10102"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="6/27/2019 4:46:55 PM"
+		timestampiso="2019-06-27T11:16:55"
+		endtime="6/27/2019 4:47:40 PM"
+		timeoutfactor="1"
+		module="CreateEstimate_ImageComparison">
+		<detail>
+			CreateEstimate_ImageComparison
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:38.142"
+			timeWallClock="16:47:33"
+			time="00:00.000"
+			level="Failure"
+			category="User"
+			errimg="images_CreateEs_dc185ff4\CreateEs_dc185ff4_5e1713d7_trace.jpg"
+			errthumb="images_CreateEs_dc185ff4\CreateEs_dc185ff4_5e1713d7_trace_thumb.jpg">
+			<message>
+				Image Comparison is FAILED!!!
+			</message>
+			<metainfo
+				codefile="c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\TestScripts\CreateEstimate_ImageComparison.cs"
+				codeline="62"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:38.169"
+			timeWallClock="16:47:33"
+			time="00:00.000"
+			level="Error"
+			category="Expected"
+			errimg="images_CreateEs_dc185ff4\CreateEs_6e4c317a_rxlog.jpg"
+			errthumb="images_CreateEs_dc185ff4\CreateEs_6e4c317a_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\TestScripts\CreateEstimate_ImageComparison.cs"
+				codeline="62"
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:38.186"
+			timeWallClock="16:47:33"
+			time="00:00.000"
+			level="Error"
+			category="Actual"
+			errimg="images_CreateEs_dc185ff4\CreateEs_10f3a615_rxlog.jpg"
+			errthumb="images_CreateEs_dc185ff4\CreateEs_10f3a615_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\TestScripts\CreateEstimate_ImageComparison.cs"
+				codeline="62"
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:45.295"
+			timeWallClock="16:47:40"
+			time="00:00.000"
+			level="Error"
+			category="Module"
+			errimg="images_CreateEs_dc185ff4\CreateEs_dc185ff4_b12aeeaf_trace.jpg"
+			errthumb="images_CreateEs_dc185ff4\CreateEs_dc185ff4_b12aeeaf_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

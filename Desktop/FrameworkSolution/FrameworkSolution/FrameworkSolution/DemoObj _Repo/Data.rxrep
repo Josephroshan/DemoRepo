@@ -1,0 +1,20 @@
+﻿<repository
+id="d3fdd273-42da-4fab-bcd7-c8e9defce527"
+name="Data">
+	<codegen
+	classname="Data"
+	namespace="FrameworkSolution.DemoObj__Repo">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="c027bef8-87a7-4f13-8972-ea0a0dabadc0"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

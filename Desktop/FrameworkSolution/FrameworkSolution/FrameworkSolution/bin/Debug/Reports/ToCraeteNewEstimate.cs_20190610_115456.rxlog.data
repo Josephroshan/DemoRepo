@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="4m"
+		durationms="237091"
+		type="root"
+		rid="c86e647e364cdb0"
+		totalerrorcount="2"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Test"
+		rxversion="9.1.0.0"
+		host="THSCVM10050B"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1364x768"
+		timestamp="6/10/2019 11:55:01 AM"
+		timestampiso="2019-06-10T06:25:01"
+		endtime="6/10/2019 12:01:43 PM"
+		timeoutfactor="1"
+		module="ToCraeteNewEstimate">
+		<detail>
+			ToCraeteNewEstimate
+		</detail>
+		<errormessage>
+			Failed to find item 'CreateEstimate.Driver.BarButtonItemLinkNewButtonItem'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="03:57.092"
+			timeWallClock="11:58:58"
+			time="00:00.000"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="03:57.661"
+			timeWallClock="11:58:59"
+			time="00:00.000"
+			level="Error"
+			category="Module"
+			errimg="images_ToCraete_ab07ef34\ToCraete_ab07ef34_513396da_trace.jpg"
+			errthumb="images_ToCraete_ab07ef34\ToCraete_ab07ef34_513396da_trace_thumb.jpg">
+			<message>
+				Failed to find item 'CreateEstimate.Driver.BarButtonItemLinkNewButtonItem'.<br/>No element found for path '/form[@name='DESTINI Estimator' and @classname='Window']/container[@automationid='m_RibbonControl']//button[@automationid='BarButtonItemLinkNewButtonItem']' at step 'form[@name='DESTINI Estimator' and @classname='Window']' after 73 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at FrameworkSolution.ObjectRepository.CreateEstimateFolders.DriverAppFolder.get_BarButtonItemLinkNewButtonItem() in c:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\ObjectRepository\CreateEstimate.cs:line 142&#13;&#10;   at FrameworkSolution.Functions.ApplicationFunction.CreateNewEstimate.Create_Estimate() in c:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\Functions\ApplicationFunction\CreateNewEstimate.cs:line 35&#13;&#10;   at FrameworkSolution.ToCraeteNewEstimate.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\TestScripts\ToCraeteNewEstimate.cs:line 59&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\TestScripts\ToCraeteNewEstimate.cs"
+				codeline="59"
+				type="repoitem"
+				path="/form[@name='DESTINI Estimator' and @classname='Window']/container[@automationid='m_RibbonControl']//button[@automationid='BarButtonItemLinkNewButtonItem']"
+				itempath="container[@automationid='m_RibbonControl']//button[@automationid='BarButtonItemLinkNewButtonItem']"
+				fullname="CreateEstimate.Driver.BarButtonItemLinkNewButtonItem"
+				id="21a5d9285bc14ccc91a387c96ac76b72"
+				timeout="60000"
+				failedStep="form[@name='DESTINI Estimator' and @classname='Window']"
+				bestPathPrefix=""
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="03:58.581"
+			timeWallClock="11:59:00"
+			time="00:00.000"
+			level="Failure"
+			category="Module"
+			errimg="images_ToCraete_ab07ef34\ToCraete_ab07ef34_f556d7f4_trace.jpg"
+			errthumb="images_ToCraete_ab07ef34\ToCraete_ab07ef34_f556d7f4_trace_thumb.jpg">
+			<message>
+				Thread was being aborted.
+			</message>
+			<metainfo
+				stacktrace="   at System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer(Activity mod)
+   at Ranorex.Core.Testing.TestModuleRunner.RunStandalone(ITestModule module, String reportFilename, Boolean generateReport, String standaloneModuleName, CaseInsensitiveString guid)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

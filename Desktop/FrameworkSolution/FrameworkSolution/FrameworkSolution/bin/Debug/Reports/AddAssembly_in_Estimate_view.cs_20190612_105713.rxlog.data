@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="35fe7a01d2efff0c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Test"
+		rxversion="9.1.0.0"
+		host="THSCVM10050B"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1364x768"
+		timestamp="6/12/2019 10:57:15 AM"
+		timestampiso="2019-06-12T05:27:15"
+		endtime="6/12/2019 10:59:01 AM"
+		timeoutfactor="1"
+		module="AddAssembly_in_Estimate_view">
+		<detail>
+			AddAssembly_in_Estimate_view
+		</detail>
+		<errormessage>
+			Failed to find item 'Obj_AddAssembly_EstimateView.MTakeoffWindow.PARTContentHost'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="01:45.932"
+			timeWallClock="10:59:01"
+			time="00:00.000"
+			level="Error"
+			category="Module"
+			errimg="images_AddAssem_5ec79f3b\AddAssem_5ec79f3b_4f419d48_trace.jpg"
+			errthumb="images_AddAssem_5ec79f3b\AddAssem_5ec79f3b_4f419d48_trace_thumb.jpg">
+			<message>
+				Failed to find item 'Obj_AddAssembly_EstimateView.MTakeoffWindow.PARTContentHost'.<br/>No element found for path '/form[@name='Assembly Takeoff' and @classname='Window' and @title='Assembly Takeoff']/?/?/container[@automationid='m_AssemblyVariablesFormulaFlowLayoutControl']/?/?/text[@automationid='m_VariableValueTextEdit']/?/?/container[@automationid='PART_ContentHost']' at step 'form[@name='Assembly Takeoff' and @classname='Window' and @title='Assembly Takeoff']' after 255 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MTakeoffWindowAppFolder.get_PARTContentHost() in c:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\ObjectRepository\Obj_AddAssembly_EstimateView.cs:line 290&#13;&#10;   at FrameworkSolution.Functions.ApplicationFunction.AddAssembly.Add_Assemby() in c:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\Functions\ApplicationFunction\AddAssembly.cs:line 85&#13;&#10;   at FrameworkSolution.TestScripts.AddAssembly_in_Estimate_view.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\TestScripts\AddAssembly_in_Estimate_view.cs:line 69&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\TestScripts\AddAssembly_in_Estimate_view.cs"
+				codeline="69"
+				type="repoitem"
+				path="/form[@name='Assembly Takeoff' and @classname='Window' and @title='Assembly Takeoff']/?/?/container[@automationid='m_AssemblyVariablesFormulaFlowLayoutControl']/?/?/text[@automationid='m_VariableValueTextEdit']/?/?/container[@automationid='PART_ContentHost']"
+				itempath="?/?/container[@automationid='m_AssemblyVariablesFormulaFlowLayoutControl']/?/?/text[@automationid='m_VariableValueTextEdit']/?/?/container[@automationid='PART_ContentHost']"
+				fullname="Obj_AddAssembly_EstimateView.MTakeoffWindow.PARTContentHost"
+				id="5dfd6f61bfe14fd79b2d9ea968e5f112"
+				timeout="60000"
+				failedStep="form[@name='Assembly Takeoff' and @classname='Window' and @title='Assembly Takeoff']"
+				bestPathPrefix=""
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

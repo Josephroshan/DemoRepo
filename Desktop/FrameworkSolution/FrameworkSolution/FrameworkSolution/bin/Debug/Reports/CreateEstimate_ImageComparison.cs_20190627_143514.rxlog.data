@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="139855a82f5a0972"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="THI1901453"
+		rxversion="9.1.0.0"
+		host="THSLT10102"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="6/27/2019 2:35:17 PM"
+		timestampiso="2019-06-27T09:05:17"
+		endtime="6/27/2019 2:35:54 PM"
+		timeoutfactor="1"
+		module="CreateEstimate_ImageComparison">
+		<detail>
+			CreateEstimate_ImageComparison
+		</detail>
+		<errormessage>
+			Failed to load bitmap from file 'C:\Users\THI1901453\Desktop\FrameworkSolution\HomeScreen.bmp'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:37.498"
+			timeWallClock="14:35:54"
+			time="00:00.000"
+			level="Error"
+			category="Module"
+			errimg="images_CreateEs_c3feb19\CreateEs_c3feb19_4bc90911_trace.jpg"
+			errthumb="images_CreateEs_c3feb19\CreateEs_c3feb19_4bc90911_trace_thumb.jpg">
+			<message>
+				Failed to load bitmap from file 'C:\Users\THI1901453\Desktop\FrameworkSolution\HomeScreen.bmp'.<br/>C:\Users\THI1901453\Desktop\FrameworkSolution\HomeScreen.bmp
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Imaging.Load(String filename)
+   at FrameworkSolution.Functions.ApplicationFunction.ImageComparison.Img_Comp() in c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\Functions\ApplicationFunction\ImageComparison.cs:line 52
+   at FrameworkSolution.TestScripts.CreateEstimate_ImageComparison.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\TestScripts\CreateEstimate_ImageComparison.cs:line 60
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\Functions\ApplicationFunction\ImageComparison.cs"
+				codeline="52"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

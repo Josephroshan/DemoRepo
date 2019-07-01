@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ff4f880d-bdc5-444b-895d-d381aac328d2"
+mode="Desktop"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="FrameworkSolution">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="ace9b5c9-497f-4614-921a-806f96481d24"
+	name="FrameworkSolutionRepository"
+	relativepath="FrameworkSolutionRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="FrameworkSolutionRepository"
+		namespace="FrameworkSolution">
+		</codegen>
+		<rootfolder
+		id="d4a94e6b-5b4b-475d-aeb4-41a6c45a4da6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

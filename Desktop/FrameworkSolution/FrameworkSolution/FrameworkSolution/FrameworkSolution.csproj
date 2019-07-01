@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{D01BABF8-10A8-4530-9913-B501293F4BC5}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>FrameworkSolution</RootNamespace>
+    <AssemblyName>FrameworkSolution</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <RanorexVersion>9.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>07e56e0b-47cc-4d28-81d6-514ff3e373b7</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WaitManager">
+      <HintPath>..\packages\WaitManager.nuspec.1.0.0\lib\WaitManager.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver">
+      <HintPath>..\packages\Selenium.WebDriver.3.7.0\lib\net45\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support">
+      <HintPath>..\packages\Selenium.Support.3.7.0\lib\net45\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>036d2e8b-8cd1-4ef1-a5af-41836ac698a1</id>
+    </Compile>
+    <Compile Include="CloseAUT.cs">
+      <BoundTo>1de4af4f-3349-4d2e-808d-092a15c3e224</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5e42e9df-47a5-4467-97c1-c202f02e9fa4</id>
+    </Compile>
+    <Compile Include="CloseAUT.UserCode.cs">
+      <BoundTo>1de4af4f-3349-4d2e-808d-092a15c3e224</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d4472a98-bd9a-4898-8a09-489b17c26a38</id>
+    </Compile>
+    <Compile Include="DemoObj _Repo\AddAssembly.cs">
+      <BoundTo>100a11e0-24a7-4449-8c7b-41dbf295d56b</BoundTo>
+      <DependentUpon>AddAssembly.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>5aae4da8-f05b-4ffd-bf62-dee58692b34c</id>
+    </Compile>
+    <Compile Include="DemoObj _Repo\AddLine.cs">
+      <BoundTo>6a5bf416-5e11-498d-ba1e-e046e6a54a60</BoundTo>
+      <DependentUpon>AddLine.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>ed4376a8-558b-42d3-adae-0d8c03d0d803</id>
+    </Compile>
+    <Compile Include="DemoObj _Repo\CreateEstimate.cs">
+      <BoundTo>43c8dd27-ab2e-499c-a452-75dd0fef16ab</BoundTo>
+      <DependentUpon>CreateEstimate.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>d3757faa-000c-4f61-af75-85369f3f3b63</id>
+    </Compile>
+    <Compile Include="DemoObj _Repo\Data.cs">
+      <BoundTo>55ffaf94-b0c3-488e-a899-e3a4c14050fa</BoundTo>
+      <DependentUpon>Data.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>1f238840-0ce4-49fa-a199-4a0172312435</id>
+    </Compile>
+    <Compile Include="DemoObj _Repo\General.cs">
+      <BoundTo>84ba7aeb-44f6-47ba-9fec-4c9702115e23</BoundTo>
+      <DependentUpon>General.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>c16000f2-887e-440f-a9e8-64809086bc3b</id>
+    </Compile>
+    <Compile Include="DemoObj _Repo\image.cs">
+      <BoundTo>f9e4e499-dbf7-4772-bc90-95e59252b396</BoundTo>
+      <DependentUpon>image.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>3cf42a9a-1bc2-4e55-a51b-31c67ee0c164</id>
+    </Compile>
+    <Compile Include="FrameworkSolutionRepository.cs">
+      <BoundTo>07e56e0b-47cc-4d28-81d6-514ff3e373b7</BoundTo>
+      <DependentUpon>FrameworkSolutionRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>e18ceb6d-9f96-4dc1-a54f-1505839a1ebe</id>
+    </Compile>
+    <Compile Include="Functions\ApplicationFunction\AddLineItem.cs">
+      <id>4837d538-8799-40b7-9d89-21baeaff6b10</id>
+    </Compile>
+    <Compile Include="Functions\ApplicationFunction\CreateNewEstimate.cs">
+      <id>936cfebb-dff1-4082-8f32-569c018a2abc</id>
+    </Compile>
+    <Compile Include="Functions\ApplicationFunction\AddAssembly.cs">
+      <id>b923b56e-2b54-4f16-8ec0-24e2559cb0bb</id>
+    </Compile>
+    <Compile Include="Functions\ApplicationFunction\DataComparison.cs">
+      <id>5bb3bbb1-ad5f-4a74-a806-13471f984a56</id>
+    </Compile>
+    <Compile Include="Functions\ApplicationFunction\ImageComparison.cs">
+      <id>25235b64-a7e2-40f4-902e-53cc8f865040</id>
+    </Compile>
+    <Compile Include="Functions\GeneralFunction\BaseClass.cs">
+      <id>9899768e-425a-4ee3-9e13-e4f9818502b5</id>
+    </Compile>
+    <Compile Include="ObjectRepository\Obj_AddAssembly_EstimateView.cs">
+      <BoundTo>6b4ebbd7-103f-4855-8cef-37556c4b97b8</BoundTo>
+      <DependentUpon>Obj_AddAssembly_EstimateView.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>152f2abd-0ef3-45d0-a10b-afbbffd13372</id>
+    </Compile>
+    <Compile Include="ObjectRepository\Obj_AddLineItem_EstimateView.cs">
+      <BoundTo>399f654e-e01e-488c-8708-fc9abeeaab83</BoundTo>
+      <DependentUpon>Obj_AddLineItem_EstimateView.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>85594123-4b7f-40cf-8a29-09f79760a3c7</id>
+    </Compile>
+    <Compile Include="ObjectRepository\Obj_CreateEstimate.cs">
+      <BoundTo>7030409d-7cb9-4242-8264-6cd5c1f15302</BoundTo>
+      <DependentUpon>Obj_CreateEstimate.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>96c27c67-12ec-4d36-9aff-d3bfd4b68b36</id>
+    </Compile>
+    <Compile Include="ObjectRepository\Obj_DataComparison.cs">
+      <BoundTo>4b4dc131-56ea-4d28-ac13-42f50e1fd7bb</BoundTo>
+      <DependentUpon>Obj_DataComparison.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>63fd3f1f-be1e-4bb5-ae5a-9de43dc05691</id>
+    </Compile>
+    <Compile Include="ObjectRepository\Obj_GenaralClass.cs">
+      <BoundTo>03ece684-235c-4248-8e20-a8f0d6531e75</BoundTo>
+      <DependentUpon>Obj_GenaralClass.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>fbda25be-a02c-4ccc-b259-a27c3546b51f</id>
+    </Compile>
+    <Compile Include="ObjectRepository\Obj_ImageComparison.cs">
+      <BoundTo>cd853b89-63c7-4df6-b4d8-df060eb8aa05</BoundTo>
+      <DependentUpon>Obj_ImageComparison.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>11af5f1f-7d41-4192-9d31-ccc627bf678a</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>be42f532-0eb3-424b-b973-46ba28f05079</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>f45a6dcb-f182-4a95-8ca8-ce4ed5418653</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b3d9a191-08bf-4a9d-98e3-7d70eacf4998</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>f45a6dcb-f182-4a95-8ca8-ce4ed5418653</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d76d66e2-38f5-4c17-9cfc-4ac04cb3d43f</id>
+    </Compile>
+    <Compile Include="StartAUT.cs">
+      <BoundTo>09b78317-1dd9-49ce-a994-f04d2246c8bf</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ec6c6d57-d7b9-484e-8e72-0ffba609f984</id>
+    </Compile>
+    <Compile Include="StartAUT.UserCode.cs">
+      <BoundTo>09b78317-1dd9-49ce-a994-f04d2246c8bf</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>58ed975d-fe42-411b-be58-8a593a611ea2</id>
+    </Compile>
+    <Compile Include="TestScripts\AddAssembly_in_Estimate_view.cs">
+      <id>84c6f9b9-49f7-4cbf-b29f-141d3a42a7f4</id>
+    </Compile>
+    <Compile Include="TestScripts\AddLineItem_in_EstimateView.cs">
+      <id>c1d0d254-3288-413e-adf0-5d014f4df6b8</id>
+    </Compile>
+    <Compile Include="TestScripts\CreateEstimate_ImageComparison.cs">
+      <id>6c071b07-c389-47a0-90e9-095878df2031</id>
+    </Compile>
+    <Compile Include="TestScripts\ToCraeteNewEstimate.cs">
+      <id>ac7049cf-4ef0-4f54-8e62-c4b5baf409ad</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>9304420d-55bb-4443-b85b-ebae7fd2302c</id>
+    </None>
+    <None Include="CloseAUT.rxrec">
+      <BoundTo>07e56e0b-47cc-4d28-81d6-514ff3e373b7</BoundTo>
+      <id>1de4af4f-3349-4d2e-808d-092a15c3e224</id>
+      <recordtableid>e1dc4ee0-fdac-4876-b2e0-e3f0eec2903e</recordtableid>
+    </None>
+    <Content Include="FrameworkSolution.rxsqc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>ec920063-c8b9-4fb7-b977-9622e028f4eb</id>
+    </Content>
+    <None Include="DemoObj _Repo\AddAssembly.rximg">
+      <BoundTo>100a11e0-24a7-4449-8c7b-41dbf295d56b</BoundTo>
+      <DependentUpon>AddAssembly.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>33214c45-163b-44ef-a3e4-e401960d0c15</id>
+    </None>
+    <None Include="DemoObj _Repo\AddAssembly.rxrep">
+      <id>100a11e0-24a7-4449-8c7b-41dbf295d56b</id>
+      <repoid>8ea21c4a-7671-4899-abf3-c089174f2df5</repoid>
+      <reporootid>4649468f-0777-4a33-ac08-0c01f11d66b7</reporootid>
+    </None>
+    <None Include="DemoObj _Repo\AddLine.rximg">
+      <BoundTo>6a5bf416-5e11-498d-ba1e-e046e6a54a60</BoundTo>
+      <DependentUpon>AddLine.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>4dc2258e-bf99-47ac-a914-70625581efdc</id>
+    </None>
+    <None Include="DemoObj _Repo\AddLine.rxrep">
+      <id>6a5bf416-5e11-498d-ba1e-e046e6a54a60</id>
+      <repoid>abe59459-a0dd-42e4-9181-e46cc48096dd</repoid>
+      <reporootid>303a8ca2-00ff-495c-92c6-31304d6bab2f</reporootid>
+    </None>
+    <None Include="DemoObj _Repo\CreateEstimate.rximg">
+      <BoundTo>43c8dd27-ab2e-499c-a452-75dd0fef16ab</BoundTo>
+      <DependentUpon>CreateEstimate.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>746f7d79-ccf6-4e81-a06f-8300231c3afb</id>
+    </None>
+    <None Include="DemoObj _Repo\CreateEstimate.rxrep">
+      <id>43c8dd27-ab2e-499c-a452-75dd0fef16ab</id>
+      <repoid>7b71b142-7c7e-46c8-9f49-864b49bdeb68</repoid>
+      <reporootid>0f350910-8f31-4a03-a7e5-b37acfb57d7e</reporootid>
+    </None>
+    <None Include="DemoObj _Repo\Data.rximg">
+      <BoundTo>55ffaf94-b0c3-488e-a899-e3a4c14050fa</BoundTo>
+      <DependentUpon>Data.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>b9760491-4ffd-4da2-af3b-f1629a695dcf</id>
+    </None>
+    <None Include="DemoObj _Repo\Data.rxrep">
+      <id>55ffaf94-b0c3-488e-a899-e3a4c14050fa</id>
+      <repoid>d3fdd273-42da-4fab-bcd7-c8e9defce527</repoid>
+      <reporootid>c027bef8-87a7-4f13-8972-ea0a0dabadc0</reporootid>
+    </None>
+    <None Include="DemoObj _Repo\General.rximg">
+      <BoundTo>84ba7aeb-44f6-47ba-9fec-4c9702115e23</BoundTo>
+      <DependentUpon>General.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>f0f88ca6-5a79-4ce1-9abd-adffbb2fc987</id>
+    </None>
+    <None Include="DemoObj _Repo\General.rxrep">
+      <id>84ba7aeb-44f6-47ba-9fec-4c9702115e23</id>
+      <repoid>f64c9817-698d-438c-a4ba-404e3f1b0712</repoid>
+      <reporootid>f436e734-e53f-4947-871a-2535826561e5</reporootid>
+    </None>
+    <None Include="DemoObj _Repo\image.rximg">
+      <BoundTo>f9e4e499-dbf7-4772-bc90-95e59252b396</BoundTo>
+      <DependentUpon>image.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>2e707d08-0a1e-4677-b1d2-8ea833d025cf</id>
+    </None>
+    <None Include="DemoObj _Repo\image.rxrep">
+      <id>f9e4e499-dbf7-4772-bc90-95e59252b396</id>
+      <repoid>d3e1c5a0-b4b6-401d-b819-190f27aefe85</repoid>
+      <reporootid>8ef96af3-5499-4097-9608-1b10ad7959f9</reporootid>
+    </None>
+    <None Include="FrameworkSolutionRepository.rximg">
+      <BoundTo>07e56e0b-47cc-4d28-81d6-514ff3e373b7</BoundTo>
+      <DependentUpon>FrameworkSolutionRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>88302c2a-ba7c-40be-b777-248086fefad9</id>
+    </None>
+    <None Include="FrameworkSolutionRepository.rxrep">
+      <id>07e56e0b-47cc-4d28-81d6-514ff3e373b7</id>
+      <repoid>ace9b5c9-497f-4614-921a-806f96481d24</repoid>
+      <reporootid>d4a94e6b-5b4b-475d-aeb4-41a6c45a4da6</reporootid>
+    </None>
+    <None Include="ObjectRepository\Obj_AddAssembly_EstimateView.rximg">
+      <BoundTo>6b4ebbd7-103f-4855-8cef-37556c4b97b8</BoundTo>
+      <DependentUpon>Obj_AddAssembly_EstimateView.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>684fa439-6d59-4925-963a-6e700d23c2d7</id>
+    </None>
+    <None Include="ObjectRepository\Obj_AddAssembly_EstimateView.rxrep">
+      <id>6b4ebbd7-103f-4855-8cef-37556c4b97b8</id>
+      <repoid>bf1854b4-9d9c-4b52-a6bb-0d35584a1d98</repoid>
+      <reporootid>b38d7110-8e5a-497b-83c0-eaf4d1e78a29</reporootid>
+    </None>
+    <None Include="ObjectRepository\Obj_AddLineItem_EstimateView.rximg">
+      <BoundTo>399f654e-e01e-488c-8708-fc9abeeaab83</BoundTo>
+      <DependentUpon>Obj_AddLineItem_EstimateView.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>89c4e799-1152-4fa7-941e-c00babe9128e</id>
+    </None>
+    <None Include="ObjectRepository\Obj_AddLineItem_EstimateView.rxrep">
+      <id>399f654e-e01e-488c-8708-fc9abeeaab83</id>
+      <repoid>31ebe2ec-5381-42ef-a630-4a7214c22816</repoid>
+      <reporootid>31b35080-d82a-4372-a1c4-37386d501f34</reporootid>
+    </None>
+    <None Include="ObjectRepository\Obj_CreateEstimate.rximg">
+      <BoundTo>7030409d-7cb9-4242-8264-6cd5c1f15302</BoundTo>
+      <DependentUpon>Obj_CreateEstimate.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>b767e000-f523-4d57-96a3-1f5dccf2ce32</id>
+    </None>
+    <None Include="ObjectRepository\Obj_CreateEstimate.rxrep">
+      <id>7030409d-7cb9-4242-8264-6cd5c1f15302</id>
+      <repoid>b57d9f63-242f-44a9-bbda-03cda13a761e</repoid>
+      <reporootid>62584774-8ba6-447a-b923-f66904516f35</reporootid>
+    </None>
+    <None Include="ObjectRepository\Obj_DataComparison.rximg">
+      <BoundTo>4b4dc131-56ea-4d28-ac13-42f50e1fd7bb</BoundTo>
+      <DependentUpon>Obj_DataComparison.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>6785d9fa-89eb-4d24-872a-9cdb638123d2</id>
+    </None>
+    <None Include="ObjectRepository\Obj_DataComparison.rxrep">
+      <id>4b4dc131-56ea-4d28-ac13-42f50e1fd7bb</id>
+      <repoid>c4784fa1-9b99-4738-8255-9b59a612aec0</repoid>
+      <reporootid>464515c7-46e9-40fa-8f51-a5aeb1de1233</reporootid>
+    </None>
+    <None Include="ObjectRepository\Obj_GenaralClass.rximg">
+      <BoundTo>03ece684-235c-4248-8e20-a8f0d6531e75</BoundTo>
+      <DependentUpon>Obj_GenaralClass.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>e5aa31c8-3dc1-4579-b121-33b5aa469991</id>
+    </None>
+    <None Include="ObjectRepository\Obj_GenaralClass.rxrep">
+      <id>03ece684-235c-4248-8e20-a8f0d6531e75</id>
+      <repoid>f2b957b1-8fc7-4699-8a00-1f9fba13ec98</repoid>
+      <reporootid>04d0517a-67ca-470a-9060-c1f50ca9bd87</reporootid>
+    </None>
+    <None Include="ObjectRepository\Obj_ImageComparison.rximg">
+      <BoundTo>cd853b89-63c7-4df6-b4d8-df060eb8aa05</BoundTo>
+      <DependentUpon>Obj_ImageComparison.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>7a637db2-8905-45d6-a085-16dc1cc774ca</id>
+    </None>
+    <None Include="ObjectRepository\Obj_ImageComparison.rxrep">
+      <id>cd853b89-63c7-4df6-b4d8-df060eb8aa05</id>
+      <repoid>9f908249-68dc-4318-b65b-e599fe0becb5</repoid>
+      <reporootid>b0409bbb-90da-4cff-896d-536bf570cb8a</reporootid>
+    </None>
+    <None Include="packages.config">
+      <id>5d3a147a-d460-4d57-a5ba-0d12f1c686ba</id>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>07e56e0b-47cc-4d28-81d6-514ff3e373b7</BoundTo>
+      <id>f45a6dcb-f182-4a95-8ca8-ce4ed5418653</id>
+      <recordtableid>3c4f424b-7dc8-47c6-8a8f-58836819f7cf</recordtableid>
+    </None>
+    <None Include="StartAUT.rxrec">
+      <BoundTo>07e56e0b-47cc-4d28-81d6-514ff3e373b7</BoundTo>
+      <id>09b78317-1dd9-49ce-a994-f04d2246c8bf</id>
+      <recordtableid>ff4f880d-bdc5-444b-895d-d381aac328d2</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FrameworkSolution.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>1353e946-140d-4c3f-9a6e-e756b9eda3ab</id>
+    </Content>
+    <Content Include="FrameworkSolution.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>8b674447-3aaf-4bc5-b45e-93254684b50f</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Functions">
+      <id>73966ac6-bd5a-41cf-b7f5-c91ae239be93</id>
+    </Folder>
+    <Folder Include="Functions\ApplicationFunction">
+      <id>74760680-fa44-41d4-b8e9-2922250534e6</id>
+    </Folder>
+    <Folder Include="Functions\GeneralFunction">
+      <id>4f79e281-9daa-444d-8151-cf6157b1fa4e</id>
+    </Folder>
+    <Folder Include="DemoObj _Repo">
+      <id>23af2592-0a99-43d8-a969-223b111c5352</id>
+    </Folder>
+    <Folder Include="TestScripts">
+      <id>2c16469d-f3e9-431a-a53a-a2c62a2576d2</id>
+    </Folder>
+    <Folder Include="ObjectRepository">
+      <id>9f67d99a-bc72-4c46-b041-f2c0a75ada1c</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

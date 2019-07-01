@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="cc2ffd3c0f05670"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Test"
+		rxversion="9.1.0.0"
+		host="THSCVM10050B"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1364x768"
+		timestamp="6/11/2019 4:20:49 PM"
+		timestampiso="2019-06-11T10:50:49"
+		endtime="6/11/2019 4:23:12 PM"
+		timeoutfactor="1"
+		module="AddAssembly_in_Estimate_view">
+		<detail>
+			AddAssembly_in_Estimate_view
+		</detail>
+		<errormessage>
+			Failed to wait for item to exist.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="02:23.014"
+			timeWallClock="16:23:12"
+			time="00:00.000"
+			level="Error"
+			category="Module"
+			errimg="images_AddAssem_bbe243b7\AddAssem_bbe243b7_67ec9d3b_trace.jpg"
+			errthumb="images_AddAssem_bbe243b7\AddAssem_bbe243b7_67ec9d3b_trace_thumb.jpg">
+			<message>
+				Failed to wait for item to exist.<br/>Invocation did not finish within the timeout of '00:00:05'.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+   at FrameworkSolution.Functions.ApplicationFunction.AddAssembly.Add_Assemby() in c:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\Functions\ApplicationFunction\AddAssembly.cs:line 40
+   at FrameworkSolution.TestScripts.AddAssembly_in_Estimate_view.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\TestScripts\AddAssembly_in_Estimate_view.cs:line 69
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Test\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\Functions\ApplicationFunction\AddAssembly.cs"
+				codeline="40"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,20 @@
+﻿<repository
+id="8ea21c4a-7671-4899-abf3-c089174f2df5"
+name="AddAssembly">
+	<codegen
+	classname="AddAssembly"
+	namespace="FrameworkSolution.DemoObj__Repo">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="4649468f-0777-4a33-ac08-0c01f11d66b7"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

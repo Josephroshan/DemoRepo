@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1a70e7eb59c4f530"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="THI1901453"
+		rxversion="9.1.0.0"
+		host="THSLT10102"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="7/2/2019 10:42:18 AM"
+		timestampiso="2019-07-02T05:12:18"
+		endtime="7/2/2019 10:42:24 AM"
+		timeoutfactor="1"
+		module="ToCraeteNewEstimate">
+		<detail>
+			ToCraeteNewEstimate
+		</detail>
+		<errormessage>
+			Cannot start process because a file name has not been provided.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:05.723"
+			timeWallClock="10:42:24"
+			time="00:00.000"
+			level="Error"
+			category="Module"
+			errimg="images_ToCraete_d71ec224\ToCraete_d71ec224_dc8b855c_trace.jpg"
+			errthumb="images_ToCraete_d71ec224\ToCraete_d71ec224_dc8b855c_trace_thumb.jpg">
+			<message>
+				Cannot start process because a file name has not been provided.
+			</message>
+			<metainfo
+				stacktrace="   at System.Diagnostics.Process.Start()
+   at FrameworkSolution.Functions.GeneralFunction.BaseClass.Applaunch() in c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\Functions\GeneralFunction\BaseClass.cs:line 57
+   at FrameworkSolution.ToCraeteNewEstimate.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\TestScripts\ToCraeteNewEstimate.cs:line 55
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\THI1901453\Desktop\FrameworkSolution\FrameworkSolution\FrameworkSolution\Functions\GeneralFunction\BaseClass.cs"
+				codeline="57"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

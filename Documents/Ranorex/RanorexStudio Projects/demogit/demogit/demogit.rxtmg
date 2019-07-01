@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="demogit"
+      id="f8b36b04-0c82-4f65-b039-a15ee6cf1539"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="demogit"
+      id="f8b36b04-0c82-4f65-b039-a15ee6cf1539"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

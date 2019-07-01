@@ -1,0 +1,20 @@
+﻿<repository
+id="f64c9817-698d-438c-a4ba-404e3f1b0712"
+name="General">
+	<codegen
+	classname="General"
+	namespace="FrameworkSolution.DemoObj__Repo">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="f436e734-e53f-4947-871a-2535826561e5"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
