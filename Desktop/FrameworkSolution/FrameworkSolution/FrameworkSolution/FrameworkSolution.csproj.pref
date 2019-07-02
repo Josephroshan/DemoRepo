@@ -1,13 +1,10 @@
 ﻿<Properties>
-  <Array name="active" />
+  <Array name="active">
+    <Element value="Pull\UserCodeModuleTest.cs" />
+  </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="Functions\GeneralFunction\BaseClass.cs" />
-    <Element value="Functions\ApplicationFunction\ImageComparison.cs" />
-    <Element value="Functions\ApplicationFunction\DataComparison.cs" />
-    <Element value="Functions\ApplicationFunction\CreateNewEstimate.cs" />
-    <Element value="Functions\ApplicationFunction\AddLineItem.cs" />
-    <Element value="TestScripts\ToCraeteNewEstimate.cs" />
+    <Element value="Pull\UserCodeModuleTest.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
