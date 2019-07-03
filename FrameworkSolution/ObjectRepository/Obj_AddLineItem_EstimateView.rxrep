@@ -1,0 +1,194 @@
+﻿<repository
+id="31ebe2ec-5381-42ef-a630-4a7214c22816"
+name="Obj_AddLineItem_EstimateView">
+	<codegen
+	classname="Obj_AddLineItem_EstimateView"
+	namespace="FrameworkSolution.ObjectRepository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="31b35080-d82a-4372-a1c4-37386d501f34"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="f6654e3d-3490-4d2d-8e30-632bf996bd3e"
+		isrooted="True"
+		name="Driver"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="fece2cde-501d-4227-8aa0-c1a7e9219e03"
+			name="BarItemLinkAddLineItemButtonCL001AddLine"
+			refimgid="68bfea36-f5a3-4fbb-b8d3-5cb6d25531e5"
+			searchtimeout="30000ms">
+				/form[@classname='Window' and @visible='True' and @automationid='Driver']/container[@automationid='m_RibbonControl']//button[@automationid='BarItemLinkAddLineItemButtonCL001AddLineItemButton' and @visible='True' and @text='Add Line Item' and @classname='BarButtonItemLinkControl']
+			</item>
+			<basepath>
+				/form[@classname='Window' and @visible='True' and @automationid='Driver']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEWSURBVDhPY2AwWvCfIkyRZpDlMAOYTRb+F3Za
+TjRmMV0IcTnMgIKek/9PXn79//TV1/+PXXz5/+Hzz/9xgT9///0XdV6BMIDXZun/5Tvu/V+2/d7/
+NXse/F8GZG87+uT/3lPPsOKZa28iwg1bGExece3/tiOP/3cuuEw4gNENADntz59/YNdXTz1HugFJ
+jUfgXr98+93/g2dfoODpq2+gGorugo0HHoEN+Pfv3//ff/7+//0bgX8B2Q0zzuM2gMtq8f+v33+D
+DehZfIWw85GjEeSSgKK9cOfbp2wn3YD5m27DDTh/4+3/M9feoODivlOYhiKnxNfvv+NMPCAJj5xd
+uA1gMl7wXwSYlPFhkBqMdEO1zESuQQBcIlQEoshHoQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="71f95dc3-0dd5-431d-9d6b-511e46db6038"
+		isrooted="True"
+		name="MCostComponentWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="picture,uiautomation"
+			capname="picture"
+			id="3828a334-82d7-40d0-a77b-d1ae7db8395f"
+			name="Image"
+			refimgid="0002a287-ca21-4884-bf61-d83db407887e"
+			searchtimeout="30000ms">
+				/form[@name='Add Line Items' and @classname='Window' and @visible='True']/container[@automationid='LayoutControl']/container[@automationid='m_TreeGroup']/listitem[@name='LayoutItem' and @classname='LayoutItem' and @text='LayoutItem' and @orientation='None' and @iscontentelement='True' and @iscontrolelement='True' and @iskeyboardfocusable='True']//container[@automationid='LayoutRoot']/?/?/button[@orientation='None' and @iscontentelement='True' and @iscontrolelement='True' and @iskeyboardfocusable='True']/picture[@classname='Image' and @visible='True']
+			</item>
+			<item
+			addcaps="unknown,uiautomation,uiautomationvalue"
+			capname="unknown"
+			id="6c703107-5067-412b-b809-a54bd3445bd8"
+			name="UnclassifiedItemsItemBECKControls"
+			refimgid="c8ad752c-6de7-42c5-a665-9ef6003ebb15"
+			searchtimeout="30000ms">
+				/form[@name='Add Line Items' and @classname='Window' and @visible='True']/container[@automationid='LayoutControl']/container[@automationid='m_TreeGroup']/listitem[@name='LayoutItem' and @classname='LayoutItem' and @text='LayoutItem' and @orientation='None' and @iscontentelement='True' and @iscontrolelement='True' and @iskeyboardfocusable='True']//container[@automationid='LayoutRoot']/container[@automationid='m_listPanel']//element[@name&gt;'Unclassified Items, Item:' and @visible='True']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="98ae7fea-ee98-4b01-a861-b764f51684e0"
+			name="PARTMaximize"
+			refimgid="be47c18f-5a7c-47e3-a6e8-6d7685a6117d"
+			searchtimeout="30000ms">
+				/form[@name='Add Line Items' and @classname='Window' and @visible='True']/button[@automationid='PART_Maximize' and @visible='True' and @classname='Button']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="62b3d747-c33b-4005-84fe-f1b1790caa61"
+			name="PARTCloseButton"
+			refimgid="766866f8-10d0-49c4-9d47-75541786d3f7"
+			searchtimeout="30000ms">
+				/form[@name='Add Line Items' and @classname='Window' and @visible='True']/button[@automationid='PART_CloseButton' and @visible='True' and @classname='Button']
+			</item>
+			<basepath>
+				/form[@name='Add Line Items' and @classname='Window' and @visible='True']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEWSURBVDhPY2AwWvCfIkyRZpDlMAOYTRb+F3Za
+TjRmMV0IcTnMgIKek/9PXn79//TV1/+PXXz5/+Hzz/9xgT9///0XdV6BMIDXZun/5Tvu/V+2/d7/
+NXse/F8GZG87+uT/3lPPsOKZa28iwg1bGExece3/tiOP/3cuuEw4gNENADntz59/YNdXTz1HugFJ
+jUfgXr98+93/g2dfoODpq2+gGorugo0HHoEN+Pfv3//ff/7+//0bgX8B2Q0zzuM2gMtq8f+v33+D
+DehZfIWw85GjEeSSgKK9cOfbp2wn3YD5m27DDTh/4+3/M9feoODivlOYhiKnxNfvv+NMPCAJj5xd
+uA1gMl7wXwSYlPFhkBqMdEO1zESuQQBcIlQEoshHoQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="76b67aa1-9a4e-4582-b56c-1e552a3a7a67"
+		isrooted="True"
+		name="MConfigureGroupingWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="1aec2728-0a47-4c9d-b2ab-83de8659c01a"
+			name="CollectionClassification"
+			refimgid="486771e5-273b-4495-a645-95b9a4cf28d8"
+			searchtimeout="30000ms">
+				/form[@name='Configure Grouping' and @classname='Window' and @visible='True' and @automationid='m_configureGroupingWindow']/list[@automationid='m_unusedItemsListBox']//text[@name='Collection Classification' and @visible='True' and @text='Collection Classification' and @classname='TextBlock']
+			</item>
+			<item
+			addcaps="picture,uiautomation"
+			capname="picture"
+			id="159e9082-e944-4368-ad63-31a33f0da413"
+			name="Image"
+			refimgid="eab7946b-0a20-45d3-a80e-be8dc31e1a95"
+			searchtimeout="30000ms">
+				/form[@name='Configure Grouping' and @classname='Window' and @visible='True' and @automationid='m_configureGroupingWindow']/?/?/picture[@classname='Image' and @visible='True' and @automationid='PART_Icon']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="c7e91f1d-90a2-497e-9128-48b0aa525376"
+			name="TextOK"
+			refimgid="d684c593-b76c-41fa-93ee-ad965e6f8e8c"
+			searchtimeout="30000ms">
+				/form[@name='Configure Grouping' and @classname='Window' and @visible='True' and @automationid='m_configureGroupingWindow']/?/?/text[@name='OK' and @visible='True' and @text='OK' and @automationid='PART_Text']
+			</item>
+			<basepath>
+				/form[@name='Configure Grouping' and @classname='Window' and @visible='True' and @automationid='m_configureGroupingWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEWSURBVDhPY2AwWvCfIkyRZpDlMAOYTRb+F3Za
+TjRmMV0IcTnMgIKek/9PXn79//TV1/+PXXz5/+Hzz/9xgT9///0XdV6BMIDXZun/5Tvu/V+2/d7/
+NXse/F8GZG87+uT/3lPPsOKZa28iwg1bGExece3/tiOP/3cuuEw4gNENADntz59/YNdXTz1HugFJ
+jUfgXr98+93/g2dfoODpq2+gGorugo0HHoEN+Pfv3//ff/7+//0bgX8B2Q0zzuM2gMtq8f+v33+D
+DehZfIWw85GjEeSSgKK9cOfbp2wn3YD5m27DDTh/4+3/M9feoODivlOYhiKnxNfvv+NMPCAJj5xd
+uA1gMl7wXwSYlPFhkBqMdEO1zESuQQBcIlQEoshHoQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="77338045-5844-49b3-ba7a-a53dc66a349c"
+		isrooted="True"
+		name="MTakeoffWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="4bb4c3ec-6dc0-4ee0-bc0e-07b3639ec44e"
+			name="TextAdd"
+			refimgid="1332bda1-508e-40cc-8681-5780936e6a40"
+			searchtimeout="30000ms">
+				/form[@classname='Window' and @visible='True' and @automationid='m_TakeoffWindow']/?/?/text[@visible='True' and @text='Add']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="fca44c7b-caed-42b2-a28e-69933e592402"
+			name="Close"
+			refimgid="37bdc97c-c37d-4e24-81ec-5c534a2b9610"
+			searchtimeout="30000ms">
+				/form[@classname='Window' and @visible='True' and @automationid='m_TakeoffWindow']/?/?/text[@visible='True' and @text='Close']
+			</item>
+			<basepath>
+				/form[@classname='Window' and @visible='True' and @automationid='m_TakeoffWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEWSURBVDhPY2AwWvCfIkyRZpDlMAOYTRb+F3Za
+TjRmMV0IcTnMgIKek/9PXn79//TV1/+PXXz5/+Hzz/9xgT9///0XdV6BMIDXZun/5Tvu/V+2/d7/
+NXse/F8GZG87+uT/3lPPsOKZa28iwg1bGExece3/tiOP/3cuuEw4gNENADntz59/YNdXTz1HugFJ
+jUfgXr98+93/g2dfoODpq2+gGorugo0HHoEN+Pfv3//ff/7+//0bgX8B2Q0zzuM2gMtq8f+v33+D
+DehZfIWw85GjEeSSgKK9cOfbp2wn3YD5m27DDTh/4+3/M9feoODivlOYhiKnxNfvv+NMPCAJj5xd
+uA1gMl7wXwSYlPFhkBqMdEO1zESuQQBcIlQEoshHoQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

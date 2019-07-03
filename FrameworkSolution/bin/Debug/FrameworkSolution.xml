@@ -1,0 +1,1131 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FrameworkSolution</name>
+    </assembly>
+    <members>
+        <member name="T:FrameworkSolution.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:FrameworkSolution.CloseAUT.repo">
+            <summary>
+            Holds an instance of the FrameworkSolutionRepository repository.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:FrameworkSolution.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:FrameworkSolution.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.FrameworkSolutionRepository">
+            <summary>
+            The class representing the FrameworkSolutionRepository element repository.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.FrameworkSolutionRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.FrameworkSolutionRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the FrameworkSolutionRepository element repository.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.FrameworkSolutionRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.FrameworkSolutionRepository.MailMuhammedBilalOutlook">
+            <summary>
+            The MailMuhammedBilalOutlook folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.FrameworkSolutionRepository.FormRun">
+            <summary>
+            The FormRun folder.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.FrameworkSolutionRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.FrameworkSolutionRepositoryFolders.MailMuhammedBilalOutlookAppFolder">
+            <summary>
+            The MailMuhammedBilalOutlookAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.FrameworkSolutionRepositoryFolders.MailMuhammedBilalOutlookAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MailMuhammedBilalOutlook  folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.FrameworkSolutionRepositoryFolders.MailMuhammedBilalOutlookAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.FrameworkSolutionRepositoryFolders.MailMuhammedBilalOutlookAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.FrameworkSolutionRepositoryFolders.FormRunAppFolder">
+            <summary>
+            The FormRunAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.FrameworkSolutionRepositoryFolders.FormRunAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FormRun  folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.FrameworkSolutionRepositoryFolders.FormRunAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.FrameworkSolutionRepositoryFolders.FormRunAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.FrameworkSolutionRepositoryFolders.FormRunAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.FrameworkSolutionRepositoryFolders.FormRunAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.Functions.ApplicationFunction.AddLineItem">
+            <summary>
+            Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateView">
+            <summary>
+            The class representing the Obj_AddLineItem_EstimateView element repository.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateView.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateView.Instance">
+            <summary>
+            Gets the singleton class instance representing the Obj_AddLineItem_EstimateView element repository.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateView.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateView.Driver">
+            <summary>
+            The Driver folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateView.MCostComponentWindow">
+            <summary>
+            The MCostComponentWindow folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateView.MConfigureGroupingWindow">
+            <summary>
+            The MConfigureGroupingWindow folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateView.MTakeoffWindow">
+            <summary>
+            The MTakeoffWindow folder.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.Functions.ApplicationFunction.CreateNewEstimate">
+            <summary>
+            Description of Add_Assembly.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_CreateEstimate">
+            <summary>
+            The class representing the Obj_CreateEstimate element repository.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_CreateEstimate.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_CreateEstimate.Instance">
+            <summary>
+            Gets the singleton class instance representing the Obj_CreateEstimate element repository.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_CreateEstimate.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_CreateEstimate.Driver">
+            <summary>
+            The Driver folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_CreateEstimate.CreateNewEstimate">
+            <summary>
+            The CreateNewEstimate folder.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.Functions.ApplicationFunction.AddAssembly">
+            <summary>
+            Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateView">
+            <summary>
+            The class representing the Obj_AddAssembly_EstimateView element repository.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateView.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateView.Instance">
+            <summary>
+            Gets the singleton class instance representing the Obj_AddAssembly_EstimateView element repository.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateView.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateView.MConfigureGroupingWindow">
+            <summary>
+            The MConfigureGroupingWindow folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateView.MTakeoffWindow">
+            <summary>
+            The MTakeoffWindow folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateView.Driver">
+            <summary>
+            The Driver folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateView.MCostComponentWindow">
+            <summary>
+            The MCostComponentWindow folder.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.Functions.ApplicationFunction.ImageComparison">
+            <summary>
+            Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_ImageComparison">
+            <summary>
+            The class representing the Obj_ImageComparison element repository.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_ImageComparison.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_ImageComparison.Instance">
+            <summary>
+            Gets the singleton class instance representing the Obj_ImageComparison element repository.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_ImageComparison.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_ImageComparison.Driver">
+            <summary>
+            The Driver folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_ImageComparison.CreateNewEstimate">
+            <summary>
+            The CreateNewEstimate folder.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.Functions.GeneralFunction.BaseClass">
+            <summary>
+            Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_GenaralClass">
+            <summary>
+            The class representing the Obj_GenaralClass element repository.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_GenaralClass.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_GenaralClass.Instance">
+            <summary>
+            Gets the singleton class instance representing the Obj_GenaralClass element repository.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_GenaralClass.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_GenaralClass.Driver">
+            <summary>
+            The Driver folder.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MConfigureGroupingWindowAppFolder">
+            <summary>
+            The MConfigureGroupingWindowAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MConfigureGroupingWindowAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MConfigureGroupingWindow  folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MConfigureGroupingWindowAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MConfigureGroupingWindowAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MConfigureGroupingWindowAppFolder.CollectionClassification">
+            <summary>
+            The CollectionClassification item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MConfigureGroupingWindowAppFolder.CollectionClassificationInfo">
+            <summary>
+            The CollectionClassification item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MConfigureGroupingWindowAppFolder.Image">
+            <summary>
+            The Image item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MConfigureGroupingWindowAppFolder.ImageInfo">
+            <summary>
+            The Image item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MConfigureGroupingWindowAppFolder.TextOK">
+            <summary>
+            The TextOK item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MConfigureGroupingWindowAppFolder.TextOKInfo">
+            <summary>
+            The TextOK item info.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MTakeoffWindowAppFolder">
+            <summary>
+            The MTakeoffWindowAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MTakeoffWindowAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MTakeoffWindow  folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MTakeoffWindowAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MTakeoffWindowAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MTakeoffWindowAppFolder.PARTContentHost">
+            <summary>
+            The PARTContentHost item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MTakeoffWindowAppFolder.PARTContentHostInfo">
+            <summary>
+            The PARTContentHost item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MTakeoffWindowAppFolder.PARTEditor">
+            <summary>
+            The PARTEditor item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MTakeoffWindowAppFolder.PARTEditorInfo">
+            <summary>
+            The PARTEditor item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MTakeoffWindowAppFolder.PARTItem">
+            <summary>
+            The PARTItem item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MTakeoffWindowAppFolder.PARTItemInfo">
+            <summary>
+            The PARTItem item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MTakeoffWindowAppFolder.TextAdd">
+            <summary>
+            The TextAdd item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MTakeoffWindowAppFolder.TextAddInfo">
+            <summary>
+            The TextAdd item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MTakeoffWindowAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MTakeoffWindowAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.DriverAppFolder">
+            <summary>
+            The DriverAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.DriverAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Driver  folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.DriverAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.DriverAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.DriverAppFolder.BarItemLinkAddAssemblyButtonCL001AddAsse">
+            <summary>
+            The BarItemLinkAddAssemblyButtonCL001AddAsse item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.DriverAppFolder.BarItemLinkAddAssemblyButtonCL001AddAsseInfo">
+            <summary>
+            The BarItemLinkAddAssemblyButtonCL001AddAsse item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.DriverAppFolder.PARTMaximize">
+            <summary>
+            The PARTMaximize item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.DriverAppFolder.PARTMaximizeInfo">
+            <summary>
+            The PARTMaximize item info.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MCostComponentWindowAppFolder">
+            <summary>
+            The MCostComponentWindowAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MCostComponentWindowAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MCostComponentWindow  folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MCostComponentWindowAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MCostComponentWindowAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MCostComponentWindowAppFolder.UnclassifiedItemsItemBECKControls">
+            <summary>
+            The UnclassifiedItemsItemBECKControls item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MCostComponentWindowAppFolder.UnclassifiedItemsItemBECKControlsInfo">
+            <summary>
+            The UnclassifiedItemsItemBECKControls item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MCostComponentWindowAppFolder.PARTCloseButton">
+            <summary>
+            The PARTCloseButton item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddAssembly_EstimateViewFolders.MCostComponentWindowAppFolder.PARTCloseButtonInfo">
+            <summary>
+            The PARTCloseButton item info.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.DriverAppFolder">
+            <summary>
+            The DriverAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.DriverAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Driver  folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.DriverAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.DriverAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.DriverAppFolder.BarItemLinkAddLineItemButtonCL001AddLine">
+            <summary>
+            The BarItemLinkAddLineItemButtonCL001AddLine item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.DriverAppFolder.BarItemLinkAddLineItemButtonCL001AddLineInfo">
+            <summary>
+            The BarItemLinkAddLineItemButtonCL001AddLine item info.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MCostComponentWindowAppFolder">
+            <summary>
+            The MCostComponentWindowAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MCostComponentWindowAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MCostComponentWindow  folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MCostComponentWindowAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MCostComponentWindowAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MCostComponentWindowAppFolder.Image">
+            <summary>
+            The Image item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MCostComponentWindowAppFolder.ImageInfo">
+            <summary>
+            The Image item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MCostComponentWindowAppFolder.UnclassifiedItemsItemBECKControls">
+            <summary>
+            The UnclassifiedItemsItemBECKControls item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MCostComponentWindowAppFolder.UnclassifiedItemsItemBECKControlsInfo">
+            <summary>
+            The UnclassifiedItemsItemBECKControls item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MCostComponentWindowAppFolder.PARTMaximize">
+            <summary>
+            The PARTMaximize item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MCostComponentWindowAppFolder.PARTMaximizeInfo">
+            <summary>
+            The PARTMaximize item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MCostComponentWindowAppFolder.PARTCloseButton">
+            <summary>
+            The PARTCloseButton item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MCostComponentWindowAppFolder.PARTCloseButtonInfo">
+            <summary>
+            The PARTCloseButton item info.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MConfigureGroupingWindowAppFolder">
+            <summary>
+            The MConfigureGroupingWindowAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MConfigureGroupingWindowAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MConfigureGroupingWindow  folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MConfigureGroupingWindowAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MConfigureGroupingWindowAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MConfigureGroupingWindowAppFolder.CollectionClassification">
+            <summary>
+            The CollectionClassification item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MConfigureGroupingWindowAppFolder.CollectionClassificationInfo">
+            <summary>
+            The CollectionClassification item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MConfigureGroupingWindowAppFolder.Image">
+            <summary>
+            The Image item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MConfigureGroupingWindowAppFolder.ImageInfo">
+            <summary>
+            The Image item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MConfigureGroupingWindowAppFolder.TextOK">
+            <summary>
+            The TextOK item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MConfigureGroupingWindowAppFolder.TextOKInfo">
+            <summary>
+            The TextOK item info.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MTakeoffWindowAppFolder">
+            <summary>
+            The MTakeoffWindowAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MTakeoffWindowAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MTakeoffWindow  folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MTakeoffWindowAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MTakeoffWindowAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MTakeoffWindowAppFolder.TextAdd">
+            <summary>
+            The TextAdd item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MTakeoffWindowAppFolder.TextAddInfo">
+            <summary>
+            The TextAdd item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MTakeoffWindowAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_AddLineItem_EstimateViewFolders.MTakeoffWindowAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_CreateEstimateFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_CreateEstimateFolders.DriverAppFolder">
+            <summary>
+            The DriverAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_CreateEstimateFolders.DriverAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Driver  folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_CreateEstimateFolders.DriverAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_CreateEstimateFolders.DriverAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_CreateEstimateFolders.DriverAppFolder.BarButtonItemLinkNewButtonItem">
+            <summary>
+            The BarButtonItemLinkNewButtonItem item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_CreateEstimateFolders.DriverAppFolder.BarButtonItemLinkNewButtonItemInfo">
+            <summary>
+            The BarButtonItemLinkNewButtonItem item info.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_CreateEstimateFolders.CreateNewEstimateAppFolder">
+            <summary>
+            The CreateNewEstimateAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_CreateEstimateFolders.CreateNewEstimateAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CreateNewEstimate  folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_CreateEstimateFolders.CreateNewEstimateAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_CreateEstimateFolders.CreateNewEstimateAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_CreateEstimateFolders.CreateNewEstimateAppFolder.PARTContentHost">
+            <summary>
+            The PARTContentHost item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_CreateEstimateFolders.CreateNewEstimateAppFolder.PARTContentHostInfo">
+            <summary>
+            The PARTContentHost item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_CreateEstimateFolders.CreateNewEstimateAppFolder.NewEstimate">
+            <summary>
+            The NewEstimate item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_CreateEstimateFolders.CreateNewEstimateAppFolder.NewEstimateInfo">
+            <summary>
+            The NewEstimate item info.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_DataComparison">
+            <summary>
+            The class representing the Obj_DataComparison element repository.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_DataComparison.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_DataComparison.Instance">
+            <summary>
+            Gets the singleton class instance representing the Obj_DataComparison element repository.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_DataComparison.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_DataComparison.Driver">
+            <summary>
+            The Driver folder.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_DataComparisonFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_DataComparisonFolders.DriverAppFolder">
+            <summary>
+            The DriverAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_DataComparisonFolders.DriverAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Driver  folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_DataComparisonFolders.DriverAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_DataComparisonFolders.DriverAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_DataComparisonFolders.DriverAppFolder.EstimateGridControl">
+            <summary>
+            The EstimateGridControl item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_DataComparisonFolders.DriverAppFolder.EstimateGridControlInfo">
+            <summary>
+            The EstimateGridControl item info.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_GenaralClassFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_GenaralClassFolders.DriverAppFolder">
+            <summary>
+            The DriverAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_GenaralClassFolders.DriverAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Driver  folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_GenaralClassFolders.DriverAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_GenaralClassFolders.DriverAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_GenaralClassFolders.DriverAppFolder.PARTCloseButton">
+            <summary>
+            The PARTCloseButton item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_GenaralClassFolders.DriverAppFolder.PARTCloseButtonInfo">
+            <summary>
+            The PARTCloseButton item info.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_ImageComparisonFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_ImageComparisonFolders.DriverAppFolder">
+            <summary>
+            The DriverAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_ImageComparisonFolders.DriverAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Driver  folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_ImageComparisonFolders.DriverAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_ImageComparisonFolders.DriverAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_ImageComparisonFolders.DriverAppFolder.BarButtonItemLinkNewButtonItem">
+            <summary>
+            The BarButtonItemLinkNewButtonItem item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_ImageComparisonFolders.DriverAppFolder.BarButtonItemLinkNewButtonItemInfo">
+            <summary>
+            The BarButtonItemLinkNewButtonItem item info.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.ObjectRepository.Obj_ImageComparisonFolders.CreateNewEstimateAppFolder">
+            <summary>
+            The CreateNewEstimateAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ObjectRepository.Obj_ImageComparisonFolders.CreateNewEstimateAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CreateNewEstimate  folder.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_ImageComparisonFolders.CreateNewEstimateAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_ImageComparisonFolders.CreateNewEstimateAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_ImageComparisonFolders.CreateNewEstimateAppFolder.PARTContentHost">
+            <summary>
+            The PARTContentHost item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_ImageComparisonFolders.CreateNewEstimateAppFolder.PARTContentHostInfo">
+            <summary>
+            The PARTContentHost item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_ImageComparisonFolders.CreateNewEstimateAppFolder.NewEstimate">
+            <summary>
+            The NewEstimate item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_ImageComparisonFolders.CreateNewEstimateAppFolder.NewEstimateInfo">
+            <summary>
+            The NewEstimate item info.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_ImageComparisonFolders.CreateNewEstimateAppFolder.PARTCloseButton">
+            <summary>
+            The PARTCloseButton item.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.ObjectRepository.Obj_ImageComparisonFolders.CreateNewEstimateAppFolder.PARTCloseButtonInfo">
+            <summary>
+            The PARTCloseButton item info.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:FrameworkSolution.Recording1.repo">
+            <summary>
+            Holds an instance of the FrameworkSolutionRepository repository.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:FrameworkSolution.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:FrameworkSolution.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:FrameworkSolution.StartAUT.repo">
+            <summary>
+            Holds an instance of the FrameworkSolutionRepository repository.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:FrameworkSolution.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:FrameworkSolution.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:FrameworkSolution.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:FrameworkSolution.TestScripts.AddAssembly_in_Estimate_view">
+            <summary>
+            Description of AddAssembly_in_Estimate_view.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.TestScripts.AddAssembly_in_Estimate_view.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.TestScripts.AddAssembly_in_Estimate_view.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:FrameworkSolution.TestScripts.AddLineItem_in_EstimateView">
+            <summary>
+            Description of AddLineItem_in_EstimateView.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.TestScripts.AddLineItem_in_EstimateView.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.TestScripts.AddLineItem_in_EstimateView.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:FrameworkSolution.TestScripts.CreateEstimate_ImageComparison">
+            <summary>
+            Description of CreateEstimate_ImageComparison.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.TestScripts.CreateEstimate_ImageComparison.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.TestScripts.CreateEstimate_ImageComparison.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:FrameworkSolution.ToCraeteNewEstimate">
+            <summary>
+            Description of ToCraeteNewEstimate.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ToCraeteNewEstimate.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:FrameworkSolution.ToCraeteNewEstimate.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

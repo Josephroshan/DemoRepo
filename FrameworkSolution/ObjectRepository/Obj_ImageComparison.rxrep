@@ -1,0 +1,100 @@
+﻿<repository
+id="9f908249-68dc-4318-b65b-e599fe0becb5"
+name="Obj_ImageComparison">
+	<codegen
+	classname="Obj_ImageComparison"
+	namespace="FrameworkSolution.ObjectRepository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="b0409bbb-90da-4cff-896d-536bf570cb8a"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="bd87764d-dc1c-4470-a854-2420f4d0dab6"
+		isrooted="True"
+		name="Driver"
+		refpath="/form[@automationid='Driver' and @name='DESTINI Estimator' and @classname='Window']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="21a5d928-5bc1-4ccc-91a3-87c96ac76b72"
+			name="BarButtonItemLinkNewButtonItem"
+			refimgid="a8207f6d-3486-497d-860f-bb395908f331"
+			searchtimeout="30000ms">
+				/form[@name='DESTINI Estimator' and @classname='Window']/container[@automationid='m_RibbonControl']//button[@text='New' and @visible='True']
+			</item>
+			<basepath>
+				/form[@name='DESTINI Estimator' and @classname='Window']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEWSURBVDhPY2AwWvCfIkyRZpDlMAOYTRb+F3Za
+TjRmMV0IcTnMgIKek/9PXn79//TV1/+PXXz5/+Hzz/9xgT9///0XdV6BMIDXZun/5Tvu/V+2/d7/
+NXse/F8GZG87+uT/3lPPsOKZa28iwg1bGExece3/tiOP/3cuuEw4gNENADntz59/YNdXTz1HugFJ
+jUfgXr98+93/g2dfoODpq2+gGorugo0HHoEN+Pfv3//ff/7+//0bgX8B2Q0zzuM2gMtq8f+v33+D
+DehZfIWw85GjEeSSgKK9cOfbp2wn3YD5m27DDTh/4+3/M9feoODivlOYhiKnxNfvv+NMPCAJj5xd
+uA1gMl7wXwSYlPFhkBqMdEO1zESuQQBcIlQEoshHoQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="55827566-43cf-41cf-9c6b-99bb4fb38f22"
+		isrooted="True"
+		name="CreateNewEstimate"
+		refimgid="1b945255-18e7-4552-b869-9356023895ee"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,uiautomation"
+			capname="container"
+			id="32c4fc5d-37f4-411f-80ae-f975a2bb5fd4"
+			name="PARTContentHost"
+			refimgid="f931ba83-c425-49d8-97c1-a73f7b4f5acb"
+			searchtimeout="30000ms">
+				/form[@name='Create New Estimate' and @visible='True']//text[@automationid='EstimateNameTextEdit']/text[@automationid='PART_Editor']/container[@automationid='PART_ContentHost' and @visible='True']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="fdd8ff26-15b3-437b-84c0-892c1863a3d2"
+			name="NewEstimate"
+			refimgid="a0f72507-a3f6-4a5a-a23b-46fd1adca335"
+			searchtimeout="30000ms">
+				/form[@name='Create New Estimate' and @visible='True']/?/?/text[@name='New Estimate' and @text='New Estimate']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="c7afc095-ce80-4e5e-89a4-3ffe2954ad6d"
+			name="PARTCloseButton"
+			refimgid="59d6ec8b-c938-4da8-a572-1cc34fcf53d2"
+			searchtimeout="30000ms">
+				/form[@name='Create New Estimate' and @visible='True']/button[@automationid='PART_CloseButton' and @visible='True']
+			</item>
+			<basepath>
+				/form[@name='Create New Estimate' and @visible='True']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEWSURBVDhPY2AwWvCfIkyRZpDlMAOYTRb+F3Za
+TjRmMV0IcTnMgIKek/9PXn79//TV1/+PXXz5/+Hzz/9xgT9///0XdV6BMIDXZun/5Tvu/V+2/d7/
+NXse/F8GZG87+uT/3lPPsOKZa28iwg1bGExece3/tiOP/3cuuEw4gNENADntz59/YNdXTz1HugFJ
+jUfgXr98+93/g2dfoODpq2+gGorugo0HHoEN+Pfv3//ff/7+//0bgX8B2Q0zzuM2gMtq8f+v33+D
+DehZfIWw85GjEeSSgKK9cOfbp2wn3YD5m27DDTh/4+3/M9feoODivlOYhiKnxNfvv+NMPCAJj5xd
+uA1gMl7wXwSYlPFhkBqMdEO1zESuQQBcIlQEoshHoQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

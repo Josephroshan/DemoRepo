@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="9.1">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroupdef
+			id="9cb484d4-3596-406a-a81d-75c17d8aa96b"
+			name="ModuleGroup">
+			</modulegroupdef>
+			<modulegroups
+			id="f149e303-3a4a-4aa9-9c3f-e513e1b26e60"
+			name="FrameworkSolution">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="f149e303-3a4a-4aa9-9c3f-e513e1b26e60"
+			name="FrameworkSolution">
+				<modulegroupdef
+				id="9cb484d4-3596-406a-a81d-75c17d8aa96b"
+				name="ModuleGroup">
+				</modulegroupdef>
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>

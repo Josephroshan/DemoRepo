@@ -1,0 +1,213 @@
+﻿<repository
+id="bf1854b4-9d9c-4b52-a6bb-0d35584a1d98"
+name="Obj_AddAssembly_EstimateView">
+	<codegen
+	classname="Obj_AddAssembly_EstimateView"
+	namespace="FrameworkSolution.ObjectRepository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="b38d7110-8e5a-497b-83c0-eaf4d1e78a29"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="aa180ecc-9688-4d28-9d20-f1f7029f4b00"
+		isrooted="True"
+		name="MConfigureGroupingWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="0ecf3d4b-4f89-403d-a5cf-4e31a30f6fc6"
+			name="CollectionClassification"
+			refimgid="33e2707c-f03e-4d19-ad3e-1ec7a97ad9cd"
+			searchtimeout="30000ms">
+				/form[@name='Configure Grouping' and @automationid='m_configureGroupingWindow' and @classname='Window']/list[@automationid='m_unusedItemsListBox']//text[@name='Collection Classification' and @text='Collection Classification']
+			</item>
+			<item
+			addcaps="picture,uiautomation"
+			capname="picture"
+			id="55c69126-9148-48ac-bb06-33a8b1362cb1"
+			name="Image"
+			refimgid="e18c81fe-adad-40be-ae34-daa9838005ac"
+			searchtimeout="30000ms">
+				/form[@name='Configure Grouping' and @automationid='m_configureGroupingWindow' and @classname='Window']/?/?/picture[@classname='Image' and @automationid='PART_Icon']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="c3315e70-48f8-4dd7-b048-63049ae73b69"
+			name="TextOK"
+			refimgid="56d7246a-71c7-4720-814d-bd65c54ca8c9"
+			searchtimeout="30000ms">
+				/form[@name='Configure Grouping' and @automationid='m_configureGroupingWindow' and @classname='Window']/?/?/text[@name='OK' and @text='OK' and @classname='TextBlock']
+			</item>
+			<basepath>
+				/form[@name='Configure Grouping' and @automationid='m_configureGroupingWindow' and @classname='Window']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEWSURBVDhPY2AwWvCfIkyRZpDlMAOYTRb+F3Za
+TjRmMV0IcTnMgIKek/9PXn79//TV1/+PXXz5/+Hzz/9xgT9///0XdV6BMIDXZun/5Tvu/V+2/d7/
+NXse/F8GZG87+uT/3lPPsOKZa28iwg1bGExece3/tiOP/3cuuEw4gNENADntz59/YNdXTz1HugFJ
+jUfgXr98+93/g2dfoODpq2+gGorugo0HHoEN+Pfv3//ff/7+//0bgX8B2Q0zzuM2gMtq8f+v33+D
+DehZfIWw85GjEeSSgKK9cOfbp2wn3YD5m27DDTh/4+3/M9feoODivlOYhiKnxNfvv+NMPCAJj5xd
+uA1gMl7wXwSYlPFhkBqMdEO1zESuQQBcIlQEoshHoQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="c9d9be3d-18e2-44ce-89d6-102ca72968b7"
+		isrooted="True"
+		name="MTakeoffWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,uiautomation"
+			capname="container"
+			id="5dfd6f61-bfe1-4fd7-9b2d-9ea968e5f112"
+			name="PARTContentHost"
+			refimgid="da4abd99-768b-4dfa-aaff-5c9d795633b2"
+			searchtimeout="30000ms">
+				/form[@name='Assembly Takeoff' and @classname='Window' and @title='Assembly Takeoff']/?/?/container[@automationid='m_AssemblyVariablesFormulaFlowLayoutControl']/?/?/text[@automationid='m_VariableValueTextEdit']/?/?/container[@automationid='PART_ContentHost']
+			</item>
+			<item
+			addcaps="list,uiautomation"
+			capname="list"
+			id="49b6fb47-3473-47ee-b629-d6e775eec660"
+			name="PARTEditor"
+			refimgid="2c3d78fc-7cbd-4b4e-a3e5-68eb72337b41"
+			searchtimeout="30000ms">
+				/form[@name='Assembly Takeoff' and @classname='Window' and @title='Assembly Takeoff']/?/?/list[@automationid='PART_Editor' and @classname='ListBox']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationtoggle"
+			capname="button"
+			id="16b067b6-5e7a-49f5-ade9-0fd4b76b3b87"
+			name="PARTItem"
+			refimgid="65533c84-d1b5-4874-9940-223949218af4"
+			refpath="/form[@automationid='m_TakeoffWindow' and @name='Assembly Takeoff' and @classname='Window']/element[@automationid='m_AssemblyTakeoffView']/container[@automationid='m_AssemblyVariablesFormulaFlowLayoutControl']/element[2]/text[@automationid='m_VariableValueTextEdit']/button[@automationid='PART_Item']"
+			searchtimeout="30000ms">
+				/form[@name='Assembly Takeoff' and @classname='Window' and @title='Assembly Takeoff']/?/?/container[@automationid='m_AssemblyVariablesFormulaFlowLayoutControl']/element[2]/text[@automationid='m_VariableValueTextEdit']/button[@automationid='PART_Item']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="1c967e36-6447-47e0-9d41-d67aa50cca9e"
+			name="TextAdd"
+			refimgid="5798bae4-1906-49f4-bc0b-31a640da0aa5"
+			searchtimeout="30000ms">
+				/form[@name='Assembly Takeoff' and @classname='Window' and @title='Assembly Takeoff']/?/?/text[@name='Add' and @caption='Add' and @text='Add']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="2067536a-730f-4587-98f5-bceee36f2724"
+			name="Close"
+			refimgid="4b0244cb-7622-4c96-883c-cf547813cf11"
+			searchtimeout="30000ms">
+				/form[@name='Assembly Takeoff' and @classname='Window' and @title='Assembly Takeoff']/?/?/text[@name='Close' and @caption='Close' and @text='Close']
+			</item>
+			<basepath>
+				/form[@name='Assembly Takeoff' and @classname='Window' and @title='Assembly Takeoff']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEWSURBVDhPY2AwWvCfIkyRZpDlMAOYTRb+F3Za
+TjRmMV0IcTnMgIKek/9PXn79//TV1/+PXXz5/+Hzz/9xgT9///0XdV6BMIDXZun/5Tvu/V+2/d7/
+NXse/F8GZG87+uT/3lPPsOKZa28iwg1bGExece3/tiOP/3cuuEw4gNENADntz59/YNdXTz1HugFJ
+jUfgXr98+93/g2dfoODpq2+gGorugo0HHoEN+Pfv3//ff/7+//0bgX8B2Q0zzuM2gMtq8f+v33+D
+DehZfIWw85GjEeSSgKK9cOfbp2wn3YD5m27DDTh/4+3/M9feoODivlOYhiKnxNfvv+NMPCAJj5xd
+uA1gMl7wXwSYlPFhkBqMdEO1zESuQQBcIlQEoshHoQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="71eb202e-8520-430a-8060-ebf715b9f268"
+		isrooted="True"
+		name="Driver"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="6e993318-c618-4cb3-806c-763f297273dc"
+			name="BarItemLinkAddAssemblyButtonCL001AddAsse"
+			refimgid="cd6b89ca-9675-4ff5-bb64-5d519aa8d0de"
+			searchtimeout="30000ms">
+				/form[@classname='Window' and @automationid='Driver']/container[@automationid='m_RibbonControl']//button[@text='Add Assembly' and @visible='True' and @classname='RibbonApplicationButtonControl']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="81f9e041-9e4b-49b3-8618-f187b136a77d"
+			name="PARTMaximize"
+			refimgid="132a2527-8378-4351-976c-864fc6208b99"
+			searchtimeout="30000ms">
+				/form[@classname='Window' and @automationid='Driver']/form[@automationid='m_costComponentWindow']/button[@automationid='PART_Maximize' and @visible='True']
+			</item>
+			<basepath>
+				/form[@classname='Window' and @automationid='Driver']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEWSURBVDhPY2AwWvCfIkyRZpDlMAOYTRb+F3Za
+TjRmMV0IcTnMgIKek/9PXn79//TV1/+PXXz5/+Hzz/9xgT9///0XdV6BMIDXZun/5Tvu/V+2/d7/
+NXse/F8GZG87+uT/3lPPsOKZa28iwg1bGExece3/tiOP/3cuuEw4gNENADntz59/YNdXTz1HugFJ
+jUfgXr98+93/g2dfoODpq2+gGorugo0HHoEN+Pfv3//ff/7+//0bgX8B2Q0zzuM2gMtq8f+v33+D
+DehZfIWw85GjEeSSgKK9cOfbp2wn3YD5m27DDTh/4+3/M9feoODivlOYhiKnxNfvv+NMPCAJj5xd
+uA1gMl7wXwSYlPFhkBqMdEO1zESuQQBcIlQEoshHoQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="2eab6c8c-2154-4f7e-a822-784b553d3a5e"
+		isrooted="True"
+		name="MCostComponentWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,uiautomation,uiautomationvalue"
+			capname="unknown"
+			id="ea24cfa6-8272-42ed-bb63-122a8d35e0d9"
+			name="UnclassifiedItemsItemBECKControls"
+			refimgid="426a3b1f-51a8-44bd-ab53-565de2501243"
+			searchtimeout="30000ms">
+				/form[@classname='Window' and @visible='True' and @automationid='m_costComponentWindow']/container[@automationid='LayoutControl']/container[@automationid='m_TreeGroup']/listitem[@name='LayoutItem' and @classname='LayoutItem' and @text='LayoutItem' and @orientation='None' and @iscontentelement='True' and @iscontrolelement='True' and @iskeyboardfocusable='True']//container[@automationid='LayoutRoot']/container[@automationid='m_listPanel']//element[@visible='True']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="7cbb9b0f-1ed5-4b55-8cc5-646560ef6c09"
+			name="PARTCloseButton"
+			refimgid="f9969353-88e3-475f-b6f9-fd1726053d5c"
+			searchtimeout="30000ms">
+				/form[@classname='Window' and @visible='True' and @automationid='m_costComponentWindow']/button[@automationid='PART_CloseButton' and @visible='True' and @classname='Button']
+			</item>
+			<basepath>
+				/form[@classname='Window' and @visible='True' and @automationid='m_costComponentWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEWSURBVDhPY2AwWvCfIkyRZpDlMAOYTRb+F3Za
+TjRmMV0IcTnMgIKek/9PXn79//TV1/+PXXz5/+Hzz/9xgT9///0XdV6BMIDXZun/5Tvu/V+2/d7/
+NXse/F8GZG87+uT/3lPPsOKZa28iwg1bGExece3/tiOP/3cuuEw4gNENADntz59/YNdXTz1HugFJ
+jUfgXr98+93/g2dfoODpq2+gGorugo0HHoEN+Pfv3//ff/7+//0bgX8B2Q0zzuM2gMtq8f+v33+D
+DehZfIWw85GjEeSSgKK9cOfbp2wn3YD5m27DDTh/4+3/M9feoODivlOYhiKnxNfvv+NMPCAJj5xd
+uA1gMl7wXwSYlPFhkBqMdEO1zESuQQBcIlQEoshHoQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

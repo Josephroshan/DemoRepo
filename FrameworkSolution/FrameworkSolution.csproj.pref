@@ -1,0 +1,14 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="FrameworkSolution.Functions.ApplicationFunction.Application_Launch.LaunchApp(String C)" />
+    </Array>
+  </Properties>
+</Properties>

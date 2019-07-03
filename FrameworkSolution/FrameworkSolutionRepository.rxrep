@@ -1,0 +1,81 @@
+﻿<repository
+id="ace9b5c9-497f-4614-921a-806f96481d24"
+name="FrameworkSolutionRepository"
+rxversion="9.0">
+	<codegen
+	classname="FrameworkSolutionRepository"
+	namespace="FrameworkSolution">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="d4a94e6b-5b4b-475d-aeb4-41a6c45a4da6"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="63a86d81-16aa-4723-868c-2c85a6757b11"
+		isrooted="True"
+		name="MailMuhammedBilalOutlook"
+		refpath="/dom[@domain='outlook.office.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='outlook.office.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43T3UvTURjAcS/6G4Kgyy6KKKjwJogIDBJjIBWZ7MIh
+5cDKzDILZ0bmhduYaWq+kS4xo990aC/24qwkJUjmS7nV1JYoynRuvk739s3fr7zyLDrw8Ls45/mc
+5zwPv7i4v6uh9SO1LV1UNHVS+qiDkupW7pa3oDM8Jre4nqzCKjbPCr9y8r9WvsGsYDER+eZQOBrT
+kAHn+HRsxLRR9npQDIQjUWTgSPJFJeIT07dWIr95dW0rEI6gwCuBCAvLYdyekBiQG7YJeFfmqOpo
+p9zahs6SSamlEdfUAt6FEI6JgBiQGyTfICcbbHqGow7s0X6K7Nc4nCdxofIVQ24fA6PLYkAelX8p
+Qk27jfyvyTTMa6mxt6AxTnO8zMOexhOY2uv4PLIkBuQ5z/nD3HvQTZo1CfUbFVkmN9llcLC6kO2t
+OzlZcIWeIb8Y0N68z/R8iDsPXejKPpHWnILKVkSK0c+pzBvsuL2NoznpvOufFwOaHD2Ts0GqpBG0
+BlAbJA507CLemEzS+RfsVV1GX1PHyz6vGEi9VIx7Zh3nmI/rJYPsz6tld8E+EjKucijFymntU173
+zmDtmRUDZzIKcU2uKaOyO72Ympo5dq6AhNRyKsxvleS+b0tI7z1iQKW5hXNibaMPQSY864xNBXD8
+WlXG9uX78kbyIh8GF2MDiepceod9tHWP86zrJ086RzE//0G91Um1xUGl9CcqJJe4goSz2crG/8bm
+X/kbNG0rDiYbOAsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="7ec02dfd-6bd1-49e4-8852-6b0c55c7ac5b"
+		isrooted="True"
+		name="FormRun"
+		refpath="/form[@title='Run']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="62f18c96-e3f7-4a1a-8e5c-6ad610a8ec57"
+			name="ButtonOK"
+			refimgid="73286232-ab6d-4e53-bf1e-bbace08f9ce6"
+			refpath="/form[@title='Run']/button[@text='OK']"
+			searchtimeout="30000ms">
+				/form[@title='Run']/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Run']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEPSURBVDhP7ZOhb8JAFMb5M2aRyMlaJJJkhgTV
+oMgEaRDLMjOBIASBQCJIWtcKkjNLWrOkc53r3E2emDiBeALxce+ghHITaELTL5fcu/ver9/1Go37
+c0og/CSwXiOJ9lShPVHw3iQexxKt5/KgQYlmv7B6eCrQ6ueoRZh/S2CHqyU2om4QmwkyBn5E6Mxd
+iqqz+NIgQn0zoyhNMC96K41gHPxLwui8Js0u8ONE2MIsIyhtKAa+Y1D+ErxRCbUF4k3qfj8XuiuD
+v9A2SO9dnUJsHgPMfw4NnP9P/gGsICEMIw1/rdFbGpksuhNzMi/SjrxGZEXdIExSW2ACDrEy47E6
+lfM5B198pAjX4dW6seuzB039bRIW3ZpBAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

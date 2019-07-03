@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e1dc4ee0-fdac-4876-b2e0-e3f0eec2903e"
+mode="Desktop"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="FrameworkSolution">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="ace9b5c9-497f-4614-921a-806f96481d24"
+	name="FrameworkSolutionRepository"
+	relativepath="FrameworkSolutionRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="FrameworkSolutionRepository"
+		namespace="FrameworkSolution">
+		</codegen>
+		<rootfolder
+		id="d4a94e6b-5b4b-475d-aeb4-41a6c45a4da6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

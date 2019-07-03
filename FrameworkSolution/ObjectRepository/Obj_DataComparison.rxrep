@@ -1,0 +1,50 @@
+﻿<repository
+id="c4784fa1-9b99-4738-8255-9b59a612aec0"
+name="Obj_DataComparison">
+	<codegen
+	classname="Obj_DataComparison"
+	namespace="FrameworkSolution.ObjectRepository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="464515c7-46e9-40fa-8f51-a5aeb1de1233"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="5193bedb-fab9-4163-97a2-ef4dd64d0057"
+		isrooted="True"
+		name="Driver"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,uiautomation"
+			capname="container"
+			id="fe71e8ce-50dd-418e-a315-8e510e894a47"
+			name="EstimateGridControl"
+			refimgid="bd10cc9d-fdcf-44de-b7f9-c29d3a37ae6a"
+			searchtimeout="30000ms">
+				/form[@classname='Window' and @visible='True' and @automationid='Driver']/container[@automationid='m_DockLayoutManager']/container[@automationid='m_LayoutGroup']/?/?/container[@automationid='_194be1e9e03d46a3ba78738848364222']//container[@automationid='EstimateGridControl']
+			</item>
+			<basepath>
+				/form[@classname='Window' and @visible='True' and @automationid='Driver']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEWSURBVDhPY2AwWvCfIkyRZpDlMAOYTRb+F3Za
+TjRmMV0IcTnMgIKek/9PXn79//TV1/+PXXz5/+Hzz/9xgT9///0XdV6BMIDXZun/5Tvu/V+2/d7/
+NXse/F8GZG87+uT/3lPPsOKZa28iwg1bGExece3/tiOP/3cuuEw4gNENADntz59/YNdXTz1HugFJ
+jUfgXr98+93/g2dfoODpq2+gGorugo0HHoEN+Pfv3//ff/7+//0bgX8B2Q0zzuM2gMtq8f+v33+D
+DehZfIWw85GjEeSSgKK9cOfbp2wn3YD5m27DDTh/4+3/M9feoODivlOYhiKnxNfvv+NMPCAJj5xd
+uA1gMl7wXwSYlPFhkBqMdEO1zESuQQBcIlQEoshHoQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
