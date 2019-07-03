@@ -1,0 +1,19 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Recording1.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Test1.rxtst" />
+    <Element value="Recording1.rxrec" />
+    <Element value="Program.cs" />
+    <Element value="Test1.rxtmg" />
+    <Element value="StartAUT.rxrec" />
+    <Element value="StartAUT.cs" />
+    <Element value="Test1Repository.rxrep" />
+    <Element value="UserCodeModule1.cs" />
+    <Element value="EstimateView.cs" />
+    <Element value="UserCodeModule2.cs" />
+  </Array>
+  <Properties name="projectSavedData" />
+</Properties>

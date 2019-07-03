@@ -1,0 +1,48 @@
+﻿<repository
+id="17964181-ead8-4eed-82df-5f32c6167fd7"
+name="Test1Repository"
+rxversion="9.0">
+	<codegen
+	classname="Test1Repository"
+	namespace="Test1">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="09d69250-b81d-4cb9-959f-e54c6ce5928b"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="39d4b087-ffe4-40ed-aa2a-c55db7e80686"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="unknown"
+			id="e1efa9ff-108d-42a8-8a8a-dd2a4bb9c107"
+			name="NewItem"
+			searchtimeout="30000ms">
+				/form[@processname='Estimator']/element
+			</item>
+			<basepath>
+				/form[@processname='Estimator']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAADXSURBVDhPY2AwWvCfIoxVkBSMVZAUjMx59e77
+/w+ff4LpHz///McHfAv2oBpw98mn/2evvfl/7d6H/zcefPj/9NVXqFLsAKYPqxeMojb9z+06AcbY
+5FEwNsEv336Dbfn37x+GHAbGJggDp6++/t88+yIGRlGPwgFim6RtUO24AYoeFA4Q33r4EaoMTSEu
+jC4AA0u33UURx4mROVJuK6Ha//9ftv3e/5lrb2JgZPVgjMzZduQJVDt2sOPYE1TNIIzM0Qxejxdz
+Wi5G1QzCGAKkYqyCROMF/wEhVlUkWIvnIQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

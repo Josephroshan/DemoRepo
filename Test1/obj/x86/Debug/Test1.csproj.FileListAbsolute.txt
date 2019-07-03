@@ -1,0 +1,10 @@
+D:\Ranorex\Test1\Test1\bin\Debug\Test1.rxtmg
+D:\Ranorex\Test1\Test1\bin\Debug\Test1.rxtst
+D:\Ranorex\Test1\Test1\bin\Debug\Test1.exe.config
+D:\Ranorex\Test1\Test1\bin\Debug\Test1.xml
+D:\Ranorex\Test1\Test1\bin\Debug\Test1.exe
+D:\Ranorex\Test1\Test1\bin\Debug\Test1.pdb
+D:\Ranorex\Test1\Test1\bin\Debug\Ranorex.Core.Resolver.dll
+D:\Ranorex\Test1\Test1\obj\x86\Debug\Test1.csprojResolveAssemblyReference.cache
+D:\Ranorex\Test1\Test1\obj\x86\Debug\Test1.exe
+D:\Ranorex\Test1\Test1\obj\x86\Debug\Test1.pdb
