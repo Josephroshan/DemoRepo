@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="22f945ba-077e-4559-858f-2dd2d9b08dc3"
+mode="Desktop"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="TestDemo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="3a8f8f1a-026a-4f52-9c56-5c69b5c4ed5d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bc0d247c-2729-489d-b18f-6587ed171c9f"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='Estimator']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="6edc109e-84f5-4bef-9241-e3f8d46058ed"
+	name="TestDemoRepository"
+	relativepath="TestDemoRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="TestDemoRepository"
+		namespace="TestDemo">
+		</codegen>
+		<rootfolder
+		id="a8242e29-6903-46ab-beba-e680851744b8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

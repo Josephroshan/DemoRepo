@@ -1,5 +1,9 @@
 ﻿<configuration
+<<<<<<< HEAD
 rxversion="9.1">
+=======
+rxversion="9.0">
+>>>>>>> 8b9df44dc85bf87ae897feed44b1c0292030c0f1
 	<adapter.defaultsearchtimeout>
 		10000ms
 	</adapter.defaultsearchtimeout>
@@ -18,9 +22,12 @@ rxversion="9.1">
 	<input.enableimehookkey>
 		False
 	</input.enableimehookkey>
+<<<<<<< HEAD
 	<keyboard.presssequencepredelay>
 		150ms
 	</keyboard.presssequencepredelay>
+=======
+>>>>>>> 8b9df44dc85bf87ae897feed44b1c0292030c0f1
 	<pointer.checkisvalidlocation>
 		True
 	</pointer.checkisvalidlocation>
@@ -43,17 +50,27 @@ rxversion="9.1">
 		300ms
 	</recorder.mousemovetime>
 	<recorder.mouseactiontime>
+<<<<<<< HEAD
 		300ms
 	</recorder.mouseactiontime>
 	<recorder.keyactiontime>
 		20ms
+=======
+		500ms
+	</recorder.mouseactiontime>
+	<recorder.keyactiontime>
+		100ms
+>>>>>>> 8b9df44dc85bf87ae897feed44b1c0292030c0f1
 	</recorder.keyactiontime>
 	<recorder.keysequencesplittime>
 		1000ms
 	</recorder.keysequencesplittime>
+<<<<<<< HEAD
 	<report.ShowInvisibleCharactersKey>
 		True
 	</report.ShowInvisibleCharactersKey>
+=======
+>>>>>>> 8b9df44dc85bf87ae897feed44b1c0292030c0f1
 	<repository.appfoldertimeout>
 		30000ms
 	</repository.appfoldertimeout>
@@ -66,9 +83,12 @@ rxversion="9.1">
 	<repository.useappfoldercache>
 		True
 	</repository.useappfoldercache>
+<<<<<<< HEAD
 	<repository.variablestoredaction>
 		None
 	</repository.variablestoredaction>
+=======
+>>>>>>> 8b9df44dc85bf87ae897feed44b1c0292030c0f1
 	<repository.autogeneratefolders>
 		True
 	</repository.autogeneratefolders>
@@ -429,6 +449,7 @@ rxversion="9.1">
 	<mouse.disableonaction>
 		True
 	</mouse.disableonaction>
+<<<<<<< HEAD
 	<keyboard.sequence.focusretries>
 		5
 	</keyboard.sequence.focusretries>
@@ -441,6 +462,8 @@ rxversion="9.1">
 	<recorder.focusresolving.TopLevelFallbackEnabled>
 		True
 	</recorder.focusresolving.TopLevelFallbackEnabled>
+=======
+>>>>>>> 8b9df44dc85bf87ae897feed44b1c0292030c0f1
 	<plugins.win32.EnableBasicDelphiSupport>
 		True
 	</plugins.win32.EnableBasicDelphiSupport>
@@ -492,7 +515,11 @@ rxversion="9.1">
 		False
 	</plugins.wpfnative.enablewpfdebug>
 	<plugins.wpfnative.applicationtrees>
+<<<<<<< HEAD
 		UiaPreferred
+=======
+		WpfImprovedOnly
+>>>>>>> 8b9df44dc85bf87ae897feed44b1c0292030c0f1
 	</plugins.wpfnative.applicationtrees>
 	<plugins.wpfnative.proc.ignorelist>
 	</plugins.wpfnative.proc.ignorelist>
@@ -509,7 +536,11 @@ rxversion="9.1">
 		False
 	</plugins.wpfnative.tree.showall>
 	<plugins.wpfnative.tree.realizedvirtualizeditems>
+<<<<<<< HEAD
 		True
+=======
+		False
+>>>>>>> 8b9df44dc85bf87ae897feed44b1c0292030c0f1
 	</plugins.wpfnative.tree.realizedvirtualizeditems>
 	<plugins.wpfnative.tree.showvisual.never>
 		System.Windows.Controls.Primitives.CalendarDayButton;System.Windows.Controls.Primitives.CalendarButton;System.Windows.Controls.Primitives.DocumentPageView;System.Windows.Controls.Primitives.DocumentViewerBase;System.Windows.Controls.TextBoxView;System.Windows.Controls.ProgressBar;System.Windows.Controls.PasswordBox;System.Windows.Controls.Primitives.DatePickerTextBox;System.Windows.Controls.TabItem;
