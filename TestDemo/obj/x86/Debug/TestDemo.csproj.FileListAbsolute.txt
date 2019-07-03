@@ -1,0 +1,12 @@
+D:\Ranorex\TestDemo\TestDemo\bin\Debug\EstimateView.rxtst
+D:\Ranorex\TestDemo\TestDemo\bin\Debug\TestDemo.rxsqc
+D:\Ranorex\TestDemo\TestDemo\bin\Debug\TestDemo.rxtmg
+D:\Ranorex\TestDemo\TestDemo\bin\Debug\TestDemo.rxtst
+D:\Ranorex\TestDemo\TestDemo\bin\Debug\TestDemo.exe.config
+D:\Ranorex\TestDemo\TestDemo\bin\Debug\TestDemo.xml
+D:\Ranorex\TestDemo\TestDemo\bin\Debug\TestDemo.exe
+D:\Ranorex\TestDemo\TestDemo\bin\Debug\TestDemo.pdb
+D:\Ranorex\TestDemo\TestDemo\bin\Debug\Ranorex.Core.Resolver.dll
+D:\Ranorex\TestDemo\TestDemo\obj\x86\Debug\TestDemo.csprojResolveAssemblyReference.cache
+D:\Ranorex\TestDemo\TestDemo\obj\x86\Debug\TestDemo.exe
+D:\Ranorex\TestDemo\TestDemo\obj\x86\Debug\TestDemo.pdb
