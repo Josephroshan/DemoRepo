@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestDemo</name>
+    </assembly>
+    <members>
+        <member name="T:TestDemo.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:TestDemo.CloseAUT.repo">
+            <summary>
+            Holds an instance of the TestDemoRepository repository.
+            </summary>
+        </member>
+        <member name="M:TestDemo.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TestDemo.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TestDemo.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TestDemo.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TestDemo.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TestDemo.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TestDemo.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:TestDemo.Recording1.repo">
+            <summary>
+            Holds an instance of the TestDemoRepository repository.
+            </summary>
+        </member>
+        <member name="M:TestDemo.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TestDemo.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TestDemo.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TestDemo.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TestDemo.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TestDemo.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TestDemo.Recording1.Estimate">
+            <summary>
+            Gets or sets the value of variable Estimate.
+            </summary>
+        </member>
+        <member name="P:TestDemo.Recording1.New">
+            <summary>
+            Gets or sets the value of variable New.
+            </summary>
+        </member>
+        <member name="T:TestDemo.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:TestDemo.StartAUT.repo">
+            <summary>
+            Holds an instance of the TestDemoRepository repository.
+            </summary>
+        </member>
+        <member name="M:TestDemo.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TestDemo.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TestDemo.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TestDemo.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TestDemo.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TestDemo.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TestDemo.TestDemoRepository">
+            <summary>
+            The class representing the TestDemoRepository element repository.
+            </summary>
+        </member>
+        <member name="M:TestDemo.TestDemoRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:TestDemo.TestDemoRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the TestDemoRepository element repository.
+            </summary>
+        </member>
+        <member name="P:TestDemo.TestDemoRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TestDemo.TestDemoRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="T:TestDemo.TestDemoRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:TestDemo.TestDemoRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TestDemo.TestDemoRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:TestDemo.TestDemoRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TestDemo.TestDemoRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TestDemo.TestDemoRepositoryFolders.ApplicationUnderTestAppFolder.ButtonNew">
+            <summary>
+            The ButtonNew item.
+            </summary>
+        </member>
+        <member name="P:TestDemo.TestDemoRepositoryFolders.ApplicationUnderTestAppFolder.ButtonNewInfo">
+            <summary>
+            The ButtonNew item info.
+            </summary>
+        </member>
+        <member name="P:TestDemo.TestDemoRepositoryFolders.ApplicationUnderTestAppFolder.Estimate">
+            <summary>
+            The Estimate item.
+            </summary>
+        </member>
+        <member name="P:TestDemo.TestDemoRepositoryFolders.ApplicationUnderTestAppFolder.EstimateInfo">
+            <summary>
+            The Estimate item info.
+            </summary>
+        </member>
+        <member name="P:TestDemo.TestDemoRepositoryFolders.ApplicationUnderTestAppFolder.RatesResources">
+            <summary>
+            The RatesResources item.
+            </summary>
+        </member>
+        <member name="P:TestDemo.TestDemoRepositoryFolders.ApplicationUnderTestAppFolder.RatesResourcesInfo">
+            <summary>
+            The RatesResources item info.
+            </summary>
+        </member>
+        <member name="P:TestDemo.TestDemoRepositoryFolders.ApplicationUnderTestAppFolder.SomeList">
+            <summary>
+            The SomeList item.
+            </summary>
+        </member>
+        <member name="P:TestDemo.TestDemoRepositoryFolders.ApplicationUnderTestAppFolder.SomeListInfo">
+            <summary>
+            The SomeList item info.
+            </summary>
+        </member>
+        <member name="P:TestDemo.TestDemoRepositoryFolders.ApplicationUnderTestAppFolder.PARTCloseButton">
+            <summary>
+            The PARTCloseButton item.
+            </summary>
+        </member>
+        <member name="P:TestDemo.TestDemoRepositoryFolders.ApplicationUnderTestAppFolder.PARTCloseButtonInfo">
+            <summary>
+            The PARTCloseButton item info.
+            </summary>
+        </member>
+        <member name="P:TestDemo.TestDemoRepositoryFolders.ApplicationUnderTestAppFolder.SomeContainer">
+            <summary>
+            The SomeContainer item.
+            </summary>
+        </member>
+        <member name="P:TestDemo.TestDemoRepositoryFolders.ApplicationUnderTestAppFolder.SomeContainerInfo">
+            <summary>
+            The SomeContainer item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

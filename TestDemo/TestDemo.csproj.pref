@@ -1,0 +1,13 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="EstimateView.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="TestDemo.rxtst" />
+    <Element value="EstimateView.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>
