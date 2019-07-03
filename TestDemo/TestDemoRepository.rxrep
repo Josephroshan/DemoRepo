@@ -1,0 +1,102 @@
+﻿<repository
+id="6edc109e-84f5-4bef-9241-e3f8d46058ed"
+name="TestDemoRepository"
+rxversion="9.0">
+	<codegen
+	classname="TestDemoRepository"
+	namespace="TestDemo">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="a8242e29-6903-46ab-beba-e680851744b8"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="bc0d247c-2729-489d-b18f-6587ed171c9f"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="c34a54a6-8a1a-4a97-a7fd-0aa6db3d97dd"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="254c8401-b078-48a3-b079-cfddaa5e5f6b"
+			name="ButtonNew"
+			refimgid="d9492589-65bd-4e46-958b-50b15e9f8309"
+			refpath="/form[@automationid='Driver']/contextmenu/container[@automationid='PART_AutoHideControl']/list/list[1]/list[1]/container[@automationid='PART_ItemsPresenter']/button[@text='New']"
+			searchtimeout="30000ms">
+				/form[@processname='Estimator']/?/?/container[@automationid='PART_AutoHideControl']/list/list[1]/?/?/container[@automationid='PART_ItemsPresenter']/button[@text='New']
+			</item>
+			<item
+			addcaps="text,wpfelement,wpfgroupelement"
+			capname="text"
+			id="bfd17eb8-4cd4-4117-99b6-0d8a113c4e23"
+			name="Estimate"
+			refimgid="af7fcafb-20fa-49c4-b8cd-92ca2ce50e9b"
+			refpath="/form[@automationid='Driver']/contextmenu/container[@automationid='PART_AutoHideControl']/container[@automationid='PART_HeaderAndTabsLayout']/list/list[1]/container[@caption='']/text[@caption='Estimate']"
+			searchtimeout="30000ms">
+				/form[@processname='Estimator']/?/?/container[@automationid='PART_AutoHideControl']/container[@automationid='PART_HeaderAndTabsLayout']/list[@automationid='PART_PageCategoriesPane']//text[@caption='Estimate']
+			</item>
+			<item
+			addcaps="text,wpfelement,wpfgroupelement"
+			capname="text"
+			id="ca1e5c3b-5bde-47e6-8bfc-aa9f0544c090"
+			name="RatesResources"
+			refimgid="f1968414-3b2d-4a34-84a3-302713d17481"
+			refpath="/form[@automationid='Driver']/contextmenu/container[@automationid='PART_AutoHideControl']/container[@automationid='PART_HeaderAndTabsLayout']/list/list[1]/container[@caption='']/text[@caption='Rates &amp; Resources']"
+			searchtimeout="30000ms">
+				/form[@processname='Estimator']/?/?/container[@automationid='PART_AutoHideControl']/container[@automationid='PART_HeaderAndTabsLayout']/list[@automationid='PART_PageCategoriesPane']//text[@caption='Rates &amp; Resources']
+			</item>
+			<item
+			addcaps="list,wpfelement,wpfgroupelement"
+			capname="list"
+			id="895d9abf-2c7b-455a-9132-0782825fd80f"
+			name="SomeList"
+			refimgid="38ed8393-30bc-4ef2-9388-00bb7e9ade04"
+			refpath="/form[@automationid='Driver']/contextmenu/list[5]"
+			searchtimeout="30000ms">
+				/form[@processname='Estimator']/contextmenu/list[5]
+			</item>
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="873f6d9e-7106-4848-9b09-d43163698f2c"
+			name="PARTCloseButton"
+			refimgid="60c4869e-0524-4bb1-9888-1702b2c38c01"
+			refpath="/form[@automationid='Driver']/container/container[@automationid='PART_Buttons']/button/button[@automationid='PART_CloseButton']"
+			searchtimeout="30000ms">
+				/form[@processname='Estimator']//button[@automationid='PART_ShowModeSelector']/button[@automationid='PART_CloseButton']
+			</item>
+			<item
+			addcaps="container,wpfelement,wpfgroupelement"
+			capname="container"
+			id="572f62e6-c31e-4fd5-9cc4-47aae36d2a4e"
+			name="SomeContainer"
+			refimgid="68a48d69-2b9c-4b79-8fdd-5e479062c927"
+			refpath="/form[@processname='Estimator']/contextmenu/container[1]"
+			searchtimeout="30000ms">
+				/form[@processname='Estimator']/contextmenu/container[1]
+			</item>
+			<basepath>
+				/form[@processname='Estimator']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAADXSURBVDhPY2AwWvCfIoxVkBSMVZAUjMx59e77
+/w+ff4LpHz///McHfAv2oBpw98mn/2evvfl/7d6H/zcefPj/9NVXqFLsAKYPqxeMojb9z+06AcbY
+5FEwNsEv336Dbfn37x+GHAbGJggDp6++/t88+yIGRlGPwgFim6RtUO24AYoeFA4Q33r4EaoMTSEu
+jC4AA0u33UURx4mROVJuK6Ha//9ftv3e/5lrb2JgZPVgjMzZduQJVDt2sOPYE1TNIIzM0Qxejxdz
+Wi5G1QzCGAKkYqyCROMF/wEhVlUkWIvnIQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
