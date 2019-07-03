@@ -1,0 +1,18 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <string>{BB75EA31-41E8-41F9-976D-E8B2ED788D04}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>6b8ff9c0-e6a0-4ef1-97cf-b2009b3bbd8e</string>
+      <string>63f87b4b-6f70-416e-9db1-125a3b38b624</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution DEstimator[DEstimator[Functions[ApplicationFunction[EstimateView[]]]Repository[EstimateView[]]TestScripts[EstimateView[]]]]]&#xD;&#xA;Solution DEstimator\DEstimator\EstimateView.rxtst&#xD;&#xA;Solution DEstimator" />
+  <StartupProject value="{BB75EA31-41E8-41F9-976D-E8B2ED788D04}" />
+</Properties>

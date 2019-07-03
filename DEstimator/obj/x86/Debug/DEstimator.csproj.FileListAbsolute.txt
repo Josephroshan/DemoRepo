@@ -1,0 +1,14 @@
+C:\Users\thi1901449\Documents\Ranorex\RanorexStudio Projects\DEstimator\DEstimator\obj\x86\Debug\DEstimator.csprojResolveAssemblyReference.cache
+C:\Users\thi1901449\Documents\Ranorex\RanorexStudio Projects\DEstimator\DEstimator\bin\Debug\EstimateView.rxtst
+C:\Users\thi1901449\Documents\Ranorex\RanorexStudio Projects\DEstimator\DEstimator\bin\Debug\DEstimator.rxsqc
+C:\Users\thi1901449\Documents\Ranorex\RanorexStudio Projects\DEstimator\DEstimator\bin\Debug\DEstimator.rxtmg
+C:\Users\thi1901449\Documents\Ranorex\RanorexStudio Projects\DEstimator\DEstimator\bin\Debug\DEstimator.rxtst
+C:\Users\thi1901449\Documents\Ranorex\RanorexStudio Projects\DEstimator\DEstimator\bin\Debug\DEstimator.exe.config
+C:\Users\thi1901449\Documents\Ranorex\RanorexStudio Projects\DEstimator\DEstimator\bin\Debug\DEstimator.xml
+C:\Users\thi1901449\Documents\Ranorex\RanorexStudio Projects\DEstimator\DEstimator\bin\Debug\DEstimator.exe
+C:\Users\thi1901449\Documents\Ranorex\RanorexStudio Projects\DEstimator\DEstimator\bin\Debug\DEstimator.pdb
+C:\Users\thi1901449\Documents\Ranorex\RanorexStudio Projects\DEstimator\DEstimator\bin\Debug\Microsoft.Web.XmlTransform.dll
+C:\Users\thi1901449\Documents\Ranorex\RanorexStudio Projects\DEstimator\DEstimator\bin\Debug\NuGet.Core.dll
+C:\Users\thi1901449\Documents\Ranorex\RanorexStudio Projects\DEstimator\DEstimator\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\thi1901449\Documents\Ranorex\RanorexStudio Projects\DEstimator\DEstimator\obj\x86\Debug\DEstimator.exe
+C:\Users\thi1901449\Documents\Ranorex\RanorexStudio Projects\DEstimator\DEstimator\obj\x86\Debug\DEstimator.pdb

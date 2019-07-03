@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="DEstimatorRepository"
+id="c52f80d2-3b3f-42be-9226-a0f947ea645b">
+  <codegen
+  classname="DEstimatorRepository"
+  namespace="DEstimator"/>
+  <rootfolder
+  name="Root"
+  id="7570ec38-db80-4fcc-ac48-2b1d3b01ffd5"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+      <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

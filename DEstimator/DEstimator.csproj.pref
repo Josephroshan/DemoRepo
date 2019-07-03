@@ -1,0 +1,23 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="EstimateView.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="EstimateView.rxtst" />
+    <Element value="packages.config" />
+    <Element value="Repository\EstimateView\object_Repository_CreateNewEstimate.rxrep" />
+    <Element value="TestScripts\EstimateView\ts_CreateNewEstimate.cs" />
+    <Element value="app.config" />
+    <Element value="Functions\ApplicationFunction\EstimateView\CreateNewEstimate.cs" />
+    <Element value="Functions\GeneralFunction\GeneralFunction.cs" />
+    <Element value="Repository\object_Repository_Close_Button.rxrep" />
+    <Element value="DEstimator.rxtst" />
+    <Element value="Recording1.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+  </Properties>
+</Properties>

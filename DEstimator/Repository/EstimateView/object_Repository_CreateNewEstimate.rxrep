@@ -1,0 +1,106 @@
+﻿<repository
+id="1922a3ba-874b-4412-92b2-ac2d38156a2c"
+name="object_Repository_CreateNewEstimate">
+	<codegen
+	classname="object_Repository_CreateNewEstimate"
+	namespace="DEstimator.Repository.EstimateView">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="60e10338-cb25-4c70-9d5b-4d868428b272"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement,wpfgroupelement"
+		capname="form"
+		id="df43888a-c864-47e5-b26d-02b2bf37e388"
+		isrooted="True"
+		name="Driver"
+		refpath="/form[@automationid='Driver']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="5df09f4a-df35-469c-8408-3a6387698c7a"
+			name="BarButtonItemLinkNewButtonItem"
+			refimgid="5cc8e83b-d381-4892-bc74-49355e0f664c"
+			refpath="/form[@automationid='Driver' and @name='DESTINI Estimator' and @classname='Window']/container[@automationid='m_RibbonControl']/container[@name='Lower Ribbon']/container[@name='File']/button[@automationid='BarButtonItemLinkNewButtonItem']"
+			searchtimeout="30000ms">
+				/form[@automationid='Driver']/container[@automationid='m_RibbonControl']//button[@automationid='BarButtonItemLinkNewButtonItem']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="83bed2ae-312b-408a-b9a3-87ee5a2087a2"
+			name="PARTCloseButton"
+			refimgid="1e5479b3-a19b-4a73-beed-c9e3ce1f12bc"
+			refpath="/form[@automationid='Driver' and @name='DESTINI Estimator' and @classname='Window']/button[@automationid='PART_CloseButton']"
+			searchtimeout="30000ms">
+				/form[@automationid='Driver']/button[@automationid='PART_CloseButton']
+			</item>
+			<basepath>
+				/form[@automationid='Driver']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEoSURBVDhPY2AwWvCfIoxVkBQMYzCbLPwv7LSc
+aMxiuhDVgIKek/9PXn79//TV1/+PXXz5/+Hzz/9xgT9///0XdV6BMIDXZun/5Tvu/V+2/d7/NXse
+/F8GZG87+uT/3lPPsOKZa29CNMMMQMeTV1z7v+3I4/+dCy5jyGFgdAGQ0/78+Qd2avXUcyhyWDG6
+QFLjEbBmELh8+93/g2dfoODpq2+gqMcwYOOBR2DN//79+//7z9//v38j8C8gbphxHkU9igFcVov/
+f/3+G2xAz+IrqApxYWROQNFesGYQsE/ZjqoQF0bmzN90G6r9///zN97+P3PtDQou7juFqhmEYQxQ
+Snz9/jtUO3bgkbMLtwFMxgv+iwCTKD4MUoOiGYQxBEjFWAWJxgv+AwBcIlQEPAkEWAAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement,wpfgroupelement"
+		capname="form"
+		id="ce92145b-417b-4785-b79a-711e79b7ec89"
+		isrooted="True"
+		name="CreateNewEstimate"
+		refpath="/form[@title='Create New Estimate']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,uiautomation"
+			capname="container"
+			id="8946397a-97f8-4a8e-9875-ec5781fca051"
+			name="PARTContentHost"
+			refimgid="cf0c50a8-3b01-4b64-bea1-5b1a0adad6e6"
+			refpath="/form[@name='Create New Estimate' and @classname='Window' and @orientation='None']/container[@classname='ScrollViewer']/container[@automationid='NewEstimateGroupbox']/text[@automationid='EstimateNameTextEdit']/text[@automationid='PART_Editor']/container[@automationid='PART_ContentHost']"
+			searchtimeout="30000ms">
+				/form[@title='Create New Estimate']//text[@automationid='EstimateNameTextEdit']/text[@automationid='PART_Editor']/container[@automationid='PART_ContentHost']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="feef6bc0-e9f7-4898-b16b-d9e079c071e0"
+			name="CreateNewButton"
+			refimgid="9258b06c-3dfe-42f9-b8bd-2768894b431d"
+			refpath="/form[@name='Create New Estimate' and @classname='Window' and @orientation='None']/button[@automationid='CreateNewButton']"
+			searchtimeout="30000ms">
+				/form[@title='Create New Estimate']/button[@automationid='CreateNewButton']
+			</item>
+			<basepath>
+				/form[@title='Create New Estimate']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEoSURBVDhPY2AwWvCfIoxVkBQMYzCbLPwv7LSc
+aMxiuhDVgIKek/9PXn79//TV1/+PXXz5/+Hzz/9xgT9///0XdV6BMIDXZun/5Tvu/V+2/d7/NXse
+/F8GZG87+uT/3lPPsOKZa29CNMMMQMeTV1z7v+3I4/+dCy5jyGFgdAGQ0/78+Qd2avXUcyhyWDG6
+QFLjEbBmELh8+93/g2dfoODpq2+gqMcwYOOBR2DN//79+//7z9//v38j8C8gbphxHkU9igFcVov/
+f/3+G2xAz+IrqApxYWROQNFesGYQsE/ZjqoQF0bmzN90G6r9///zN97+P3PtDQou7juFqhmEYQxQ
+Snz9/jtUO3bgkbMLtwFMxgv+iwCTKD4MUoOiGYQxBEjFWAWJxgv+AwBcIlQEPAkEWAAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e2bfe71a-ab6b-4abd-8ce3-0bd30e846515"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="DEstimator">
+	</codegen>
+	<variables>
+		<var
+		id="bce14928-4cab-44d6-aefa-93b407d8ac63"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Program Files\Beck Technology\DESTINI Estimator 2019\App\Estimator.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="c52f80d2-3b3f-42be-9226-a0f947ea645b"
+	name="DEstimatorRepository"
+	relativepath="DEstimatorRepository.rxrep">
+		<codegen
+		classname="DEstimatorRepository"
+		namespace="DEstimator">
+		</codegen>
+		<rootfolder
+		id="7570ec38-db80-4fcc-ac48-2b1d3b01ffd5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

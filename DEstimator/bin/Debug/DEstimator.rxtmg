@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="DEstimator"
+      id="bf2a2ea3-8abb-4298-b582-f05f7560b4e4"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="DEstimator"
+      id="bf2a2ea3-8abb-4298-b582-f05f7560b4e4"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
