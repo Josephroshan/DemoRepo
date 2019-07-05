@@ -1,5 +1,5 @@
 ﻿<configuration
-rxversion="9.0">
+rxversion="9.1">
 	<adapter.defaultsearchtimeout>
 		10000ms
 	</adapter.defaultsearchtimeout>
@@ -18,6 +18,9 @@ rxversion="9.0">
 	<input.enableimehookkey>
 		False
 	</input.enableimehookkey>
+	<keyboard.presssequencepredelay>
+		150ms
+	</keyboard.presssequencepredelay>
 	<pointer.checkisvalidlocation>
 		True
 	</pointer.checkisvalidlocation>
@@ -48,6 +51,9 @@ rxversion="9.0">
 	<recorder.keysequencesplittime>
 		1000ms
 	</recorder.keysequencesplittime>
+	<report.ShowInvisibleCharactersKey>
+		True
+	</report.ShowInvisibleCharactersKey>
 	<repository.appfoldertimeout>
 		30000ms
 	</repository.appfoldertimeout>
@@ -60,6 +66,9 @@ rxversion="9.0">
 	<repository.useappfoldercache>
 		True
 	</repository.useappfoldercache>
+	<repository.variablestoredaction>
+		None
+	</repository.variablestoredaction>
 	<repository.autogeneratefolders>
 		True
 	</repository.autogeneratefolders>
@@ -420,6 +429,18 @@ rxversion="9.0">
 	<mouse.disableonaction>
 		True
 	</mouse.disableonaction>
+	<keyboard.sequence.focusretries>
+		5
+	</keyboard.sequence.focusretries>
+	<keyboard.sequence.focusinterval>
+		20
+	</keyboard.sequence.focusinterval>
+	<recorder.focusresolving.Enabled>
+		True
+	</recorder.focusresolving.Enabled>
+	<recorder.focusresolving.TopLevelFallbackEnabled>
+		True
+	</recorder.focusresolving.TopLevelFallbackEnabled>
 	<plugins.win32.EnableBasicDelphiSupport>
 		True
 	</plugins.win32.EnableBasicDelphiSupport>

@@ -105,7 +105,7 @@ namespace TestDemo
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Program Files\\Beck Technology\\DESTINI Estimator\\App\\Estimator.exe' with arguments '' in normal mode.", new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Program Files\\Beck Technology\\DESTINI Estimator\\App\\Estimator.exe' in normal mode. Return value bound to $.", new RecordItemIndex(0));
             Host.Local.RunApplication("C:\\Program Files\\Beck Technology\\DESTINI Estimator\\App\\Estimator.exe", "", "C:\\Program Files\\Beck Technology\\DESTINI Estimator\\App", false);
             Delay.Milliseconds(0);
             
